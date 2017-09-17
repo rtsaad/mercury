@@ -1,0 +1,28 @@
+net fms
+pl p0 (5)
+pl p3 (5)
+pl p8 (3)
+pl p16 (2)
+pl p2 (5)
+pl p13 (1)
+tr t1 [0,w[ p0 -> p4
+tr t4 [0,w[ p3 -> p7
+tr t5 [0,w[ p8 p4 -> p9
+tr t8 [0,w[ p13 p6 -> p12
+tr t9 [0,w[ p13 p7 -> p13 p14
+tr t13 [0,w[ p12 -> p13 p18
+tr t14 [0,w[ p14 -> p3
+tr t10 [0,w[ p9 -> p8 p15
+tr t15 [0,w[ p15 -> p19
+tr t6 [0,w[ p15 -> p1
+tr t18 [0,w[ p19 -> p0
+tr t2 [0,w[ p11 p1 -> p5
+tr t7 [0,w[ p5 -> p10
+tr t11 [0,w[ p16 p10 -> p17
+tr t16 [0,w[ p17 -> p16 p20
+tr t19 [0,w[ p20 -> p2 p0
+tr t12 [0,w[ p18 -> p11
+tr t17 [0,w[ p18 -> p21
+tr t3 [0,w[ p2 -> p6
+tr t20 [0,w[ p21 -> p2
+

@@ -1,0 +1,565 @@
+net Frogs_and_Toads
+pl P_0x0 (1)
+pl P_0_0x0 (1)
+pl P_1_0x0
+pl P_2_0x0
+pl P_3_0x0
+pl P_4_0x0
+pl P_5_0x0
+pl P_6_0x0
+pl P_7_0x0
+pl P_8_0x0
+pl P_9_0x0
+pl P_10_0x0
+pl P_11_0x0
+pl P_0x1 (1)
+pl P_0_0x1
+pl P_1_0x1 (1)
+pl P_2_0x1
+pl P_3_0x1
+pl P_4_0x1
+pl P_5_0x1
+pl P_6_0x1
+pl P_7_0x1
+pl P_8_0x1
+pl P_9_0x1
+pl P_10_0x1
+pl P_11_0x1
+pl P_0x2 (1)
+pl P_0_0x2
+pl P_1_0x2
+pl P_2_0x2 (1)
+pl P_3_0x2
+pl P_4_0x2
+pl P_5_0x2
+pl P_6_0x2
+pl P_7_0x2
+pl P_8_0x2
+pl P_9_0x2
+pl P_10_0x2
+pl P_11_0x2
+pl P_1x0 (1)
+pl P_0_1x0
+pl P_1_1x0
+pl P_2_1x0
+pl P_3_1x0 (1)
+pl P_4_1x0
+pl P_5_1x0
+pl P_6_1x0
+pl P_7_1x0
+pl P_8_1x0
+pl P_9_1x0
+pl P_10_1x0
+pl P_11_1x0
+pl P_1x1 (1)
+pl P_0_1x1
+pl P_1_1x1
+pl P_2_1x1
+pl P_3_1x1
+pl P_4_1x1 (1)
+pl P_5_1x1
+pl P_6_1x1
+pl P_7_1x1
+pl P_8_1x1
+pl P_9_1x1
+pl P_10_1x1
+pl P_11_1x1
+pl P_1x2 (1)
+pl P_0_1x2
+pl P_1_1x2
+pl P_2_1x2
+pl P_3_1x2
+pl P_4_1x2
+pl P_5_1x2 (1)
+pl P_6_1x2
+pl P_7_1x2
+pl P_8_1x2
+pl P_9_1x2
+pl P_10_1x2
+pl P_11_1x2
+pl P_2x0 (1)
+pl P_0_2x0
+pl P_1_2x0
+pl P_2_2x0
+pl P_3_2x0
+pl P_4_2x0
+pl P_5_2x0
+pl P_6_2x0 (1)
+pl P_7_2x0
+pl P_8_2x0
+pl P_9_2x0
+pl P_10_2x0
+pl P_11_2x0
+pl P_2x1 (1)
+pl P_0_2x1
+pl P_1_2x1
+pl P_2_2x1
+pl P_3_2x1
+pl P_4_2x1
+pl P_5_2x1
+pl P_6_2x1
+pl P_7_2x1 (1)
+pl P_8_2x1
+pl P_9_2x1
+pl P_10_2x1
+pl P_11_2x1
+pl P_2x2 (1)
+pl P_0_2x2
+pl P_1_2x2
+pl P_2_2x2
+pl P_3_2x2
+pl P_4_2x2
+pl P_5_2x2
+pl P_6_2x2
+pl P_7_2x2
+pl P_8_2x2 (1)
+pl P_9_2x2
+pl P_10_2x2
+pl P_11_2x2
+pl P_3x0 (1)
+pl P_0_3x0
+pl P_1_3x0
+pl P_2_3x0
+pl P_3_3x0
+pl P_4_3x0
+pl P_5_3x0
+pl P_6_3x0
+pl P_7_3x0
+pl P_8_3x0
+pl P_9_3x0 (1)
+pl P_10_3x0
+pl P_11_3x0
+pl P_3x1 (1)
+pl P_0_3x1
+pl P_1_3x1
+pl P_2_3x1
+pl P_3_3x1
+pl P_4_3x1
+pl P_5_3x1
+pl P_6_3x1
+pl P_7_3x1
+pl P_8_3x1
+pl P_9_3x1
+pl P_10_3x1 (1)
+pl P_11_3x1
+pl P_3x2
+pl P_0_3x2
+pl P_1_3x2
+pl P_2_3x2
+pl P_3_3x2
+pl P_4_3x2
+pl P_5_3x2
+pl P_6_3x2
+pl P_7_3x2
+pl P_8_3x2
+pl P_9_3x2
+pl P_10_3x2
+pl P_11_3x2
+tr move_P_0_0x0_0x1 P_0_0x0 P_0x0 P_0x1?-1 ->  P_0_0x1 P_0x1
+tr move_P_0_0x0_1x0 P_0_0x0 P_0x0 P_1x0?-1 ->  P_0_1x0 P_1x0
+tr move_P_1_0x0_0x1 P_1_0x0 P_0x0 P_0x1?-1 ->  P_1_0x1 P_0x1
+tr move_P_1_0x0_1x0 P_1_0x0 P_0x0 P_1x0?-1 ->  P_1_1x0 P_1x0
+tr move_P_2_0x0_0x1 P_2_0x0 P_0x0 P_0x1?-1 ->  P_2_0x1 P_0x1
+tr move_P_2_0x0_1x0 P_2_0x0 P_0x0 P_1x0?-1 ->  P_2_1x0 P_1x0
+tr move_P_3_0x0_0x1 P_3_0x0 P_0x0 P_0x1?-1 ->  P_3_0x1 P_0x1
+tr move_P_3_0x0_1x0 P_3_0x0 P_0x0 P_1x0?-1 ->  P_3_1x0 P_1x0
+tr move_P_4_0x0_0x1 P_4_0x0 P_0x0 P_0x1?-1 ->  P_4_0x1 P_0x1
+tr move_P_4_0x0_1x0 P_4_0x0 P_0x0 P_1x0?-1 ->  P_4_1x0 P_1x0
+tr move_P_5_0x0_0x1 P_5_0x0 P_0x0 P_0x1?-1 ->  P_5_0x1 P_0x1
+tr move_P_5_0x0_1x0 P_5_0x0 P_0x0 P_1x0?-1 ->  P_5_1x0 P_1x0
+tr move_P_6_0x0_0x1 P_6_0x0 P_0x0 P_0x1?-1 ->  P_6_0x1 P_0x1
+tr move_P_6_0x0_1x0 P_6_0x0 P_0x0 P_1x0?-1 ->  P_6_1x0 P_1x0
+tr move_P_7_0x0_0x1 P_7_0x0 P_0x0 P_0x1?-1 ->  P_7_0x1 P_0x1
+tr move_P_7_0x0_1x0 P_7_0x0 P_0x0 P_1x0?-1 ->  P_7_1x0 P_1x0
+tr move_P_8_0x0_0x1 P_8_0x0 P_0x0 P_0x1?-1 ->  P_8_0x1 P_0x1
+tr move_P_8_0x0_1x0 P_8_0x0 P_0x0 P_1x0?-1 ->  P_8_1x0 P_1x0
+tr move_P_9_0x0_0x1 P_9_0x0 P_0x0 P_0x1?-1 ->  P_9_0x1 P_0x1
+tr move_P_9_0x0_1x0 P_9_0x0 P_0x0 P_1x0?-1 ->  P_9_1x0 P_1x0
+tr move_P_10_0x0_0x1 P_10_0x0 P_0x0 P_0x1?-1 ->  P_10_0x1 P_0x1
+tr move_P_10_0x0_1x0 P_10_0x0 P_0x0 P_1x0?-1 ->  P_10_1x0 P_1x0
+tr move_P_11_0x0_0x1 P_11_0x0 P_0x0 P_0x1?-1 ->  P_11_0x1 P_0x1
+tr move_P_11_0x0_1x0 P_11_0x0 P_0x0 P_1x0?-1 ->  P_11_1x0 P_1x0
+tr move_P_0_0x1_0x2 P_0_0x1 P_0x1 P_0x2?-1 ->  P_0_0x2 P_0x2
+tr move_P_0_0x1_1x1 P_0_0x1 P_0x1 P_1x1?-1 ->  P_0_1x1 P_1x1
+tr move_P_0_0x1_0x0 P_0_0x1 P_0x1 P_0x0?-1 ->  P_0_0x0 P_0x0
+tr move_P_1_0x1_0x2 P_1_0x1 P_0x1 P_0x2?-1 ->  P_1_0x2 P_0x2
+tr move_P_1_0x1_1x1 P_1_0x1 P_0x1 P_1x1?-1 ->  P_1_1x1 P_1x1
+tr move_P_1_0x1_0x0 P_1_0x1 P_0x1 P_0x0?-1 ->  P_1_0x0 P_0x0
+tr move_P_2_0x1_0x2 P_2_0x1 P_0x1 P_0x2?-1 ->  P_2_0x2 P_0x2
+tr move_P_2_0x1_1x1 P_2_0x1 P_0x1 P_1x1?-1 ->  P_2_1x1 P_1x1
+tr move_P_2_0x1_0x0 P_2_0x1 P_0x1 P_0x0?-1 ->  P_2_0x0 P_0x0
+tr move_P_3_0x1_0x2 P_3_0x1 P_0x1 P_0x2?-1 ->  P_3_0x2 P_0x2
+tr move_P_3_0x1_1x1 P_3_0x1 P_0x1 P_1x1?-1 ->  P_3_1x1 P_1x1
+tr move_P_3_0x1_0x0 P_3_0x1 P_0x1 P_0x0?-1 ->  P_3_0x0 P_0x0
+tr move_P_4_0x1_0x2 P_4_0x1 P_0x1 P_0x2?-1 ->  P_4_0x2 P_0x2
+tr move_P_4_0x1_1x1 P_4_0x1 P_0x1 P_1x1?-1 ->  P_4_1x1 P_1x1
+tr move_P_4_0x1_0x0 P_4_0x1 P_0x1 P_0x0?-1 ->  P_4_0x0 P_0x0
+tr move_P_5_0x1_0x2 P_5_0x1 P_0x1 P_0x2?-1 ->  P_5_0x2 P_0x2
+tr move_P_5_0x1_1x1 P_5_0x1 P_0x1 P_1x1?-1 ->  P_5_1x1 P_1x1
+tr move_P_5_0x1_0x0 P_5_0x1 P_0x1 P_0x0?-1 ->  P_5_0x0 P_0x0
+tr move_P_6_0x1_0x2 P_6_0x1 P_0x1 P_0x2?-1 ->  P_6_0x2 P_0x2
+tr move_P_6_0x1_1x1 P_6_0x1 P_0x1 P_1x1?-1 ->  P_6_1x1 P_1x1
+tr move_P_6_0x1_0x0 P_6_0x1 P_0x1 P_0x0?-1 ->  P_6_0x0 P_0x0
+tr move_P_7_0x1_0x2 P_7_0x1 P_0x1 P_0x2?-1 ->  P_7_0x2 P_0x2
+tr move_P_7_0x1_1x1 P_7_0x1 P_0x1 P_1x1?-1 ->  P_7_1x1 P_1x1
+tr move_P_7_0x1_0x0 P_7_0x1 P_0x1 P_0x0?-1 ->  P_7_0x0 P_0x0
+tr move_P_8_0x1_0x2 P_8_0x1 P_0x1 P_0x2?-1 ->  P_8_0x2 P_0x2
+tr move_P_8_0x1_1x1 P_8_0x1 P_0x1 P_1x1?-1 ->  P_8_1x1 P_1x1
+tr move_P_8_0x1_0x0 P_8_0x1 P_0x1 P_0x0?-1 ->  P_8_0x0 P_0x0
+tr move_P_9_0x1_0x2 P_9_0x1 P_0x1 P_0x2?-1 ->  P_9_0x2 P_0x2
+tr move_P_9_0x1_1x1 P_9_0x1 P_0x1 P_1x1?-1 ->  P_9_1x1 P_1x1
+tr move_P_9_0x1_0x0 P_9_0x1 P_0x1 P_0x0?-1 ->  P_9_0x0 P_0x0
+tr move_P_10_0x1_0x2 P_10_0x1 P_0x1 P_0x2?-1 ->  P_10_0x2 P_0x2
+tr move_P_10_0x1_1x1 P_10_0x1 P_0x1 P_1x1?-1 ->  P_10_1x1 P_1x1
+tr move_P_10_0x1_0x0 P_10_0x1 P_0x1 P_0x0?-1 ->  P_10_0x0 P_0x0
+tr move_P_11_0x1_0x2 P_11_0x1 P_0x1 P_0x2?-1 ->  P_11_0x2 P_0x2
+tr move_P_11_0x1_1x1 P_11_0x1 P_0x1 P_1x1?-1 ->  P_11_1x1 P_1x1
+tr move_P_11_0x1_0x0 P_11_0x1 P_0x1 P_0x0?-1 ->  P_11_0x0 P_0x0
+tr move_P_0_0x2_1x2 P_0_0x2 P_0x2 P_1x2?-1 ->  P_0_1x2 P_1x2
+tr move_P_0_0x2_0x1 P_0_0x2 P_0x2 P_0x1?-1 ->  P_0_0x1 P_0x1
+tr move_P_1_0x2_1x2 P_1_0x2 P_0x2 P_1x2?-1 ->  P_1_1x2 P_1x2
+tr move_P_1_0x2_0x1 P_1_0x2 P_0x2 P_0x1?-1 ->  P_1_0x1 P_0x1
+tr move_P_2_0x2_1x2 P_2_0x2 P_0x2 P_1x2?-1 ->  P_2_1x2 P_1x2
+tr move_P_2_0x2_0x1 P_2_0x2 P_0x2 P_0x1?-1 ->  P_2_0x1 P_0x1
+tr move_P_3_0x2_1x2 P_3_0x2 P_0x2 P_1x2?-1 ->  P_3_1x2 P_1x2
+tr move_P_3_0x2_0x1 P_3_0x2 P_0x2 P_0x1?-1 ->  P_3_0x1 P_0x1
+tr move_P_4_0x2_1x2 P_4_0x2 P_0x2 P_1x2?-1 ->  P_4_1x2 P_1x2
+tr move_P_4_0x2_0x1 P_4_0x2 P_0x2 P_0x1?-1 ->  P_4_0x1 P_0x1
+tr move_P_5_0x2_1x2 P_5_0x2 P_0x2 P_1x2?-1 ->  P_5_1x2 P_1x2
+tr move_P_5_0x2_0x1 P_5_0x2 P_0x2 P_0x1?-1 ->  P_5_0x1 P_0x1
+tr move_P_6_0x2_1x2 P_6_0x2 P_0x2 P_1x2?-1 ->  P_6_1x2 P_1x2
+tr move_P_6_0x2_0x1 P_6_0x2 P_0x2 P_0x1?-1 ->  P_6_0x1 P_0x1
+tr move_P_7_0x2_1x2 P_7_0x2 P_0x2 P_1x2?-1 ->  P_7_1x2 P_1x2
+tr move_P_7_0x2_0x1 P_7_0x2 P_0x2 P_0x1?-1 ->  P_7_0x1 P_0x1
+tr move_P_8_0x2_1x2 P_8_0x2 P_0x2 P_1x2?-1 ->  P_8_1x2 P_1x2
+tr move_P_8_0x2_0x1 P_8_0x2 P_0x2 P_0x1?-1 ->  P_8_0x1 P_0x1
+tr move_P_9_0x2_1x2 P_9_0x2 P_0x2 P_1x2?-1 ->  P_9_1x2 P_1x2
+tr move_P_9_0x2_0x1 P_9_0x2 P_0x2 P_0x1?-1 ->  P_9_0x1 P_0x1
+tr move_P_10_0x2_1x2 P_10_0x2 P_0x2 P_1x2?-1 ->  P_10_1x2 P_1x2
+tr move_P_10_0x2_0x1 P_10_0x2 P_0x2 P_0x1?-1 ->  P_10_0x1 P_0x1
+tr move_P_11_0x2_1x2 P_11_0x2 P_0x2 P_1x2?-1 ->  P_11_1x2 P_1x2
+tr move_P_11_0x2_0x1 P_11_0x2 P_0x2 P_0x1?-1 ->  P_11_0x1 P_0x1
+tr move_P_0_1x0_1x1 P_0_1x0 P_1x0 P_1x1?-1 ->  P_0_1x1 P_1x1
+tr move_P_0_1x0_2x0 P_0_1x0 P_1x0 P_2x0?-1 ->  P_0_2x0 P_2x0
+tr move_P_0_1x0_0x0 P_0_1x0 P_1x0 P_0x0?-1 ->  P_0_0x0 P_0x0
+tr move_P_1_1x0_1x1 P_1_1x0 P_1x0 P_1x1?-1 ->  P_1_1x1 P_1x1
+tr move_P_1_1x0_2x0 P_1_1x0 P_1x0 P_2x0?-1 ->  P_1_2x0 P_2x0
+tr move_P_1_1x0_0x0 P_1_1x0 P_1x0 P_0x0?-1 ->  P_1_0x0 P_0x0
+tr move_P_2_1x0_1x1 P_2_1x0 P_1x0 P_1x1?-1 ->  P_2_1x1 P_1x1
+tr move_P_2_1x0_2x0 P_2_1x0 P_1x0 P_2x0?-1 ->  P_2_2x0 P_2x0
+tr move_P_2_1x0_0x0 P_2_1x0 P_1x0 P_0x0?-1 ->  P_2_0x0 P_0x0
+tr move_P_3_1x0_1x1 P_3_1x0 P_1x0 P_1x1?-1 ->  P_3_1x1 P_1x1
+tr move_P_3_1x0_2x0 P_3_1x0 P_1x0 P_2x0?-1 ->  P_3_2x0 P_2x0
+tr move_P_3_1x0_0x0 P_3_1x0 P_1x0 P_0x0?-1 ->  P_3_0x0 P_0x0
+tr move_P_4_1x0_1x1 P_4_1x0 P_1x0 P_1x1?-1 ->  P_4_1x1 P_1x1
+tr move_P_4_1x0_2x0 P_4_1x0 P_1x0 P_2x0?-1 ->  P_4_2x0 P_2x0
+tr move_P_4_1x0_0x0 P_4_1x0 P_1x0 P_0x0?-1 ->  P_4_0x0 P_0x0
+tr move_P_5_1x0_1x1 P_5_1x0 P_1x0 P_1x1?-1 ->  P_5_1x1 P_1x1
+tr move_P_5_1x0_2x0 P_5_1x0 P_1x0 P_2x0?-1 ->  P_5_2x0 P_2x0
+tr move_P_5_1x0_0x0 P_5_1x0 P_1x0 P_0x0?-1 ->  P_5_0x0 P_0x0
+tr move_P_6_1x0_1x1 P_6_1x0 P_1x0 P_1x1?-1 ->  P_6_1x1 P_1x1
+tr move_P_6_1x0_2x0 P_6_1x0 P_1x0 P_2x0?-1 ->  P_6_2x0 P_2x0
+tr move_P_6_1x0_0x0 P_6_1x0 P_1x0 P_0x0?-1 ->  P_6_0x0 P_0x0
+tr move_P_7_1x0_1x1 P_7_1x0 P_1x0 P_1x1?-1 ->  P_7_1x1 P_1x1
+tr move_P_7_1x0_2x0 P_7_1x0 P_1x0 P_2x0?-1 ->  P_7_2x0 P_2x0
+tr move_P_7_1x0_0x0 P_7_1x0 P_1x0 P_0x0?-1 ->  P_7_0x0 P_0x0
+tr move_P_8_1x0_1x1 P_8_1x0 P_1x0 P_1x1?-1 ->  P_8_1x1 P_1x1
+tr move_P_8_1x0_2x0 P_8_1x0 P_1x0 P_2x0?-1 ->  P_8_2x0 P_2x0
+tr move_P_8_1x0_0x0 P_8_1x0 P_1x0 P_0x0?-1 ->  P_8_0x0 P_0x0
+tr move_P_9_1x0_1x1 P_9_1x0 P_1x0 P_1x1?-1 ->  P_9_1x1 P_1x1
+tr move_P_9_1x0_2x0 P_9_1x0 P_1x0 P_2x0?-1 ->  P_9_2x0 P_2x0
+tr move_P_9_1x0_0x0 P_9_1x0 P_1x0 P_0x0?-1 ->  P_9_0x0 P_0x0
+tr move_P_10_1x0_1x1 P_10_1x0 P_1x0 P_1x1?-1 ->  P_10_1x1 P_1x1
+tr move_P_10_1x0_2x0 P_10_1x0 P_1x0 P_2x0?-1 ->  P_10_2x0 P_2x0
+tr move_P_10_1x0_0x0 P_10_1x0 P_1x0 P_0x0?-1 ->  P_10_0x0 P_0x0
+tr move_P_11_1x0_1x1 P_11_1x0 P_1x0 P_1x1?-1 ->  P_11_1x1 P_1x1
+tr move_P_11_1x0_2x0 P_11_1x0 P_1x0 P_2x0?-1 ->  P_11_2x0 P_2x0
+tr move_P_11_1x0_0x0 P_11_1x0 P_1x0 P_0x0?-1 ->  P_11_0x0 P_0x0
+tr move_P_0_1x1_1x2 P_0_1x1 P_1x1 P_1x2?-1 ->  P_0_1x2 P_1x2
+tr move_P_0_1x1_2x1 P_0_1x1 P_1x1 P_2x1?-1 ->  P_0_2x1 P_2x1
+tr move_P_0_1x1_1x0 P_0_1x1 P_1x1 P_1x0?-1 ->  P_0_1x0 P_1x0
+tr move_P_0_1x1_0x1 P_0_1x1 P_1x1 P_0x1?-1 ->  P_0_0x1 P_0x1
+tr move_P_1_1x1_1x2 P_1_1x1 P_1x1 P_1x2?-1 ->  P_1_1x2 P_1x2
+tr move_P_1_1x1_2x1 P_1_1x1 P_1x1 P_2x1?-1 ->  P_1_2x1 P_2x1
+tr move_P_1_1x1_1x0 P_1_1x1 P_1x1 P_1x0?-1 ->  P_1_1x0 P_1x0
+tr move_P_1_1x1_0x1 P_1_1x1 P_1x1 P_0x1?-1 ->  P_1_0x1 P_0x1
+tr move_P_2_1x1_1x2 P_2_1x1 P_1x1 P_1x2?-1 ->  P_2_1x2 P_1x2
+tr move_P_2_1x1_2x1 P_2_1x1 P_1x1 P_2x1?-1 ->  P_2_2x1 P_2x1
+tr move_P_2_1x1_1x0 P_2_1x1 P_1x1 P_1x0?-1 ->  P_2_1x0 P_1x0
+tr move_P_2_1x1_0x1 P_2_1x1 P_1x1 P_0x1?-1 ->  P_2_0x1 P_0x1
+tr move_P_3_1x1_1x2 P_3_1x1 P_1x1 P_1x2?-1 ->  P_3_1x2 P_1x2
+tr move_P_3_1x1_2x1 P_3_1x1 P_1x1 P_2x1?-1 ->  P_3_2x1 P_2x1
+tr move_P_3_1x1_1x0 P_3_1x1 P_1x1 P_1x0?-1 ->  P_3_1x0 P_1x0
+tr move_P_3_1x1_0x1 P_3_1x1 P_1x1 P_0x1?-1 ->  P_3_0x1 P_0x1
+tr move_P_4_1x1_1x2 P_4_1x1 P_1x1 P_1x2?-1 ->  P_4_1x2 P_1x2
+tr move_P_4_1x1_2x1 P_4_1x1 P_1x1 P_2x1?-1 ->  P_4_2x1 P_2x1
+tr move_P_4_1x1_1x0 P_4_1x1 P_1x1 P_1x0?-1 ->  P_4_1x0 P_1x0
+tr move_P_4_1x1_0x1 P_4_1x1 P_1x1 P_0x1?-1 ->  P_4_0x1 P_0x1
+tr move_P_5_1x1_1x2 P_5_1x1 P_1x1 P_1x2?-1 ->  P_5_1x2 P_1x2
+tr move_P_5_1x1_2x1 P_5_1x1 P_1x1 P_2x1?-1 ->  P_5_2x1 P_2x1
+tr move_P_5_1x1_1x0 P_5_1x1 P_1x1 P_1x0?-1 ->  P_5_1x0 P_1x0
+tr move_P_5_1x1_0x1 P_5_1x1 P_1x1 P_0x1?-1 ->  P_5_0x1 P_0x1
+tr move_P_6_1x1_1x2 P_6_1x1 P_1x1 P_1x2?-1 ->  P_6_1x2 P_1x2
+tr move_P_6_1x1_2x1 P_6_1x1 P_1x1 P_2x1?-1 ->  P_6_2x1 P_2x1
+tr move_P_6_1x1_1x0 P_6_1x1 P_1x1 P_1x0?-1 ->  P_6_1x0 P_1x0
+tr move_P_6_1x1_0x1 P_6_1x1 P_1x1 P_0x1?-1 ->  P_6_0x1 P_0x1
+tr move_P_7_1x1_1x2 P_7_1x1 P_1x1 P_1x2?-1 ->  P_7_1x2 P_1x2
+tr move_P_7_1x1_2x1 P_7_1x1 P_1x1 P_2x1?-1 ->  P_7_2x1 P_2x1
+tr move_P_7_1x1_1x0 P_7_1x1 P_1x1 P_1x0?-1 ->  P_7_1x0 P_1x0
+tr move_P_7_1x1_0x1 P_7_1x1 P_1x1 P_0x1?-1 ->  P_7_0x1 P_0x1
+tr move_P_8_1x1_1x2 P_8_1x1 P_1x1 P_1x2?-1 ->  P_8_1x2 P_1x2
+tr move_P_8_1x1_2x1 P_8_1x1 P_1x1 P_2x1?-1 ->  P_8_2x1 P_2x1
+tr move_P_8_1x1_1x0 P_8_1x1 P_1x1 P_1x0?-1 ->  P_8_1x0 P_1x0
+tr move_P_8_1x1_0x1 P_8_1x1 P_1x1 P_0x1?-1 ->  P_8_0x1 P_0x1
+tr move_P_9_1x1_1x2 P_9_1x1 P_1x1 P_1x2?-1 ->  P_9_1x2 P_1x2
+tr move_P_9_1x1_2x1 P_9_1x1 P_1x1 P_2x1?-1 ->  P_9_2x1 P_2x1
+tr move_P_9_1x1_1x0 P_9_1x1 P_1x1 P_1x0?-1 ->  P_9_1x0 P_1x0
+tr move_P_9_1x1_0x1 P_9_1x1 P_1x1 P_0x1?-1 ->  P_9_0x1 P_0x1
+tr move_P_10_1x1_1x2 P_10_1x1 P_1x1 P_1x2?-1 ->  P_10_1x2 P_1x2
+tr move_P_10_1x1_2x1 P_10_1x1 P_1x1 P_2x1?-1 ->  P_10_2x1 P_2x1
+tr move_P_10_1x1_1x0 P_10_1x1 P_1x1 P_1x0?-1 ->  P_10_1x0 P_1x0
+tr move_P_10_1x1_0x1 P_10_1x1 P_1x1 P_0x1?-1 ->  P_10_0x1 P_0x1
+tr move_P_11_1x1_1x2 P_11_1x1 P_1x1 P_1x2?-1 ->  P_11_1x2 P_1x2
+tr move_P_11_1x1_2x1 P_11_1x1 P_1x1 P_2x1?-1 ->  P_11_2x1 P_2x1
+tr move_P_11_1x1_1x0 P_11_1x1 P_1x1 P_1x0?-1 ->  P_11_1x0 P_1x0
+tr move_P_11_1x1_0x1 P_11_1x1 P_1x1 P_0x1?-1 ->  P_11_0x1 P_0x1
+tr move_P_0_1x2_2x2 P_0_1x2 P_1x2 P_2x2?-1 ->  P_0_2x2 P_2x2
+tr move_P_0_1x2_1x1 P_0_1x2 P_1x2 P_1x1?-1 ->  P_0_1x1 P_1x1
+tr move_P_0_1x2_0x2 P_0_1x2 P_1x2 P_0x2?-1 ->  P_0_0x2 P_0x2
+tr move_P_1_1x2_2x2 P_1_1x2 P_1x2 P_2x2?-1 ->  P_1_2x2 P_2x2
+tr move_P_1_1x2_1x1 P_1_1x2 P_1x2 P_1x1?-1 ->  P_1_1x1 P_1x1
+tr move_P_1_1x2_0x2 P_1_1x2 P_1x2 P_0x2?-1 ->  P_1_0x2 P_0x2
+tr move_P_2_1x2_2x2 P_2_1x2 P_1x2 P_2x2?-1 ->  P_2_2x2 P_2x2
+tr move_P_2_1x2_1x1 P_2_1x2 P_1x2 P_1x1?-1 ->  P_2_1x1 P_1x1
+tr move_P_2_1x2_0x2 P_2_1x2 P_1x2 P_0x2?-1 ->  P_2_0x2 P_0x2
+tr move_P_3_1x2_2x2 P_3_1x2 P_1x2 P_2x2?-1 ->  P_3_2x2 P_2x2
+tr move_P_3_1x2_1x1 P_3_1x2 P_1x2 P_1x1?-1 ->  P_3_1x1 P_1x1
+tr move_P_3_1x2_0x2 P_3_1x2 P_1x2 P_0x2?-1 ->  P_3_0x2 P_0x2
+tr move_P_4_1x2_2x2 P_4_1x2 P_1x2 P_2x2?-1 ->  P_4_2x2 P_2x2
+tr move_P_4_1x2_1x1 P_4_1x2 P_1x2 P_1x1?-1 ->  P_4_1x1 P_1x1
+tr move_P_4_1x2_0x2 P_4_1x2 P_1x2 P_0x2?-1 ->  P_4_0x2 P_0x2
+tr move_P_5_1x2_2x2 P_5_1x2 P_1x2 P_2x2?-1 ->  P_5_2x2 P_2x2
+tr move_P_5_1x2_1x1 P_5_1x2 P_1x2 P_1x1?-1 ->  P_5_1x1 P_1x1
+tr move_P_5_1x2_0x2 P_5_1x2 P_1x2 P_0x2?-1 ->  P_5_0x2 P_0x2
+tr move_P_6_1x2_2x2 P_6_1x2 P_1x2 P_2x2?-1 ->  P_6_2x2 P_2x2
+tr move_P_6_1x2_1x1 P_6_1x2 P_1x2 P_1x1?-1 ->  P_6_1x1 P_1x1
+tr move_P_6_1x2_0x2 P_6_1x2 P_1x2 P_0x2?-1 ->  P_6_0x2 P_0x2
+tr move_P_7_1x2_2x2 P_7_1x2 P_1x2 P_2x2?-1 ->  P_7_2x2 P_2x2
+tr move_P_7_1x2_1x1 P_7_1x2 P_1x2 P_1x1?-1 ->  P_7_1x1 P_1x1
+tr move_P_7_1x2_0x2 P_7_1x2 P_1x2 P_0x2?-1 ->  P_7_0x2 P_0x2
+tr move_P_8_1x2_2x2 P_8_1x2 P_1x2 P_2x2?-1 ->  P_8_2x2 P_2x2
+tr move_P_8_1x2_1x1 P_8_1x2 P_1x2 P_1x1?-1 ->  P_8_1x1 P_1x1
+tr move_P_8_1x2_0x2 P_8_1x2 P_1x2 P_0x2?-1 ->  P_8_0x2 P_0x2
+tr move_P_9_1x2_2x2 P_9_1x2 P_1x2 P_2x2?-1 ->  P_9_2x2 P_2x2
+tr move_P_9_1x2_1x1 P_9_1x2 P_1x2 P_1x1?-1 ->  P_9_1x1 P_1x1
+tr move_P_9_1x2_0x2 P_9_1x2 P_1x2 P_0x2?-1 ->  P_9_0x2 P_0x2
+tr move_P_10_1x2_2x2 P_10_1x2 P_1x2 P_2x2?-1 ->  P_10_2x2 P_2x2
+tr move_P_10_1x2_1x1 P_10_1x2 P_1x2 P_1x1?-1 ->  P_10_1x1 P_1x1
+tr move_P_10_1x2_0x2 P_10_1x2 P_1x2 P_0x2?-1 ->  P_10_0x2 P_0x2
+tr move_P_11_1x2_2x2 P_11_1x2 P_1x2 P_2x2?-1 ->  P_11_2x2 P_2x2
+tr move_P_11_1x2_1x1 P_11_1x2 P_1x2 P_1x1?-1 ->  P_11_1x1 P_1x1
+tr move_P_11_1x2_0x2 P_11_1x2 P_1x2 P_0x2?-1 ->  P_11_0x2 P_0x2
+tr move_P_0_2x0_2x1 P_0_2x0 P_2x0 P_2x1?-1 ->  P_0_2x1 P_2x1
+tr move_P_0_2x0_3x0 P_0_2x0 P_2x0 P_3x0?-1 ->  P_0_3x0 P_3x0
+tr move_P_0_2x0_1x0 P_0_2x0 P_2x0 P_1x0?-1 ->  P_0_1x0 P_1x0
+tr move_P_1_2x0_2x1 P_1_2x0 P_2x0 P_2x1?-1 ->  P_1_2x1 P_2x1
+tr move_P_1_2x0_3x0 P_1_2x0 P_2x0 P_3x0?-1 ->  P_1_3x0 P_3x0
+tr move_P_1_2x0_1x0 P_1_2x0 P_2x0 P_1x0?-1 ->  P_1_1x0 P_1x0
+tr move_P_2_2x0_2x1 P_2_2x0 P_2x0 P_2x1?-1 ->  P_2_2x1 P_2x1
+tr move_P_2_2x0_3x0 P_2_2x0 P_2x0 P_3x0?-1 ->  P_2_3x0 P_3x0
+tr move_P_2_2x0_1x0 P_2_2x0 P_2x0 P_1x0?-1 ->  P_2_1x0 P_1x0
+tr move_P_3_2x0_2x1 P_3_2x0 P_2x0 P_2x1?-1 ->  P_3_2x1 P_2x1
+tr move_P_3_2x0_3x0 P_3_2x0 P_2x0 P_3x0?-1 ->  P_3_3x0 P_3x0
+tr move_P_3_2x0_1x0 P_3_2x0 P_2x0 P_1x0?-1 ->  P_3_1x0 P_1x0
+tr move_P_4_2x0_2x1 P_4_2x0 P_2x0 P_2x1?-1 ->  P_4_2x1 P_2x1
+tr move_P_4_2x0_3x0 P_4_2x0 P_2x0 P_3x0?-1 ->  P_4_3x0 P_3x0
+tr move_P_4_2x0_1x0 P_4_2x0 P_2x0 P_1x0?-1 ->  P_4_1x0 P_1x0
+tr move_P_5_2x0_2x1 P_5_2x0 P_2x0 P_2x1?-1 ->  P_5_2x1 P_2x1
+tr move_P_5_2x0_3x0 P_5_2x0 P_2x0 P_3x0?-1 ->  P_5_3x0 P_3x0
+tr move_P_5_2x0_1x0 P_5_2x0 P_2x0 P_1x0?-1 ->  P_5_1x0 P_1x0
+tr move_P_6_2x0_2x1 P_6_2x0 P_2x0 P_2x1?-1 ->  P_6_2x1 P_2x1
+tr move_P_6_2x0_3x0 P_6_2x0 P_2x0 P_3x0?-1 ->  P_6_3x0 P_3x0
+tr move_P_6_2x0_1x0 P_6_2x0 P_2x0 P_1x0?-1 ->  P_6_1x0 P_1x0
+tr move_P_7_2x0_2x1 P_7_2x0 P_2x0 P_2x1?-1 ->  P_7_2x1 P_2x1
+tr move_P_7_2x0_3x0 P_7_2x0 P_2x0 P_3x0?-1 ->  P_7_3x0 P_3x0
+tr move_P_7_2x0_1x0 P_7_2x0 P_2x0 P_1x0?-1 ->  P_7_1x0 P_1x0
+tr move_P_8_2x0_2x1 P_8_2x0 P_2x0 P_2x1?-1 ->  P_8_2x1 P_2x1
+tr move_P_8_2x0_3x0 P_8_2x0 P_2x0 P_3x0?-1 ->  P_8_3x0 P_3x0
+tr move_P_8_2x0_1x0 P_8_2x0 P_2x0 P_1x0?-1 ->  P_8_1x0 P_1x0
+tr move_P_9_2x0_2x1 P_9_2x0 P_2x0 P_2x1?-1 ->  P_9_2x1 P_2x1
+tr move_P_9_2x0_3x0 P_9_2x0 P_2x0 P_3x0?-1 ->  P_9_3x0 P_3x0
+tr move_P_9_2x0_1x0 P_9_2x0 P_2x0 P_1x0?-1 ->  P_9_1x0 P_1x0
+tr move_P_10_2x0_2x1 P_10_2x0 P_2x0 P_2x1?-1 ->  P_10_2x1 P_2x1
+tr move_P_10_2x0_3x0 P_10_2x0 P_2x0 P_3x0?-1 ->  P_10_3x0 P_3x0
+tr move_P_10_2x0_1x0 P_10_2x0 P_2x0 P_1x0?-1 ->  P_10_1x0 P_1x0
+tr move_P_11_2x0_2x1 P_11_2x0 P_2x0 P_2x1?-1 ->  P_11_2x1 P_2x1
+tr move_P_11_2x0_3x0 P_11_2x0 P_2x0 P_3x0?-1 ->  P_11_3x0 P_3x0
+tr move_P_11_2x0_1x0 P_11_2x0 P_2x0 P_1x0?-1 ->  P_11_1x0 P_1x0
+tr move_P_0_2x1_2x2 P_0_2x1 P_2x1 P_2x2?-1 ->  P_0_2x2 P_2x2
+tr move_P_0_2x1_3x1 P_0_2x1 P_2x1 P_3x1?-1 ->  P_0_3x1 P_3x1
+tr move_P_0_2x1_2x0 P_0_2x1 P_2x1 P_2x0?-1 ->  P_0_2x0 P_2x0
+tr move_P_0_2x1_1x1 P_0_2x1 P_2x1 P_1x1?-1 ->  P_0_1x1 P_1x1
+tr move_P_1_2x1_2x2 P_1_2x1 P_2x1 P_2x2?-1 ->  P_1_2x2 P_2x2
+tr move_P_1_2x1_3x1 P_1_2x1 P_2x1 P_3x1?-1 ->  P_1_3x1 P_3x1
+tr move_P_1_2x1_2x0 P_1_2x1 P_2x1 P_2x0?-1 ->  P_1_2x0 P_2x0
+tr move_P_1_2x1_1x1 P_1_2x1 P_2x1 P_1x1?-1 ->  P_1_1x1 P_1x1
+tr move_P_2_2x1_2x2 P_2_2x1 P_2x1 P_2x2?-1 ->  P_2_2x2 P_2x2
+tr move_P_2_2x1_3x1 P_2_2x1 P_2x1 P_3x1?-1 ->  P_2_3x1 P_3x1
+tr move_P_2_2x1_2x0 P_2_2x1 P_2x1 P_2x0?-1 ->  P_2_2x0 P_2x0
+tr move_P_2_2x1_1x1 P_2_2x1 P_2x1 P_1x1?-1 ->  P_2_1x1 P_1x1
+tr move_P_3_2x1_2x2 P_3_2x1 P_2x1 P_2x2?-1 ->  P_3_2x2 P_2x2
+tr move_P_3_2x1_3x1 P_3_2x1 P_2x1 P_3x1?-1 ->  P_3_3x1 P_3x1
+tr move_P_3_2x1_2x0 P_3_2x1 P_2x1 P_2x0?-1 ->  P_3_2x0 P_2x0
+tr move_P_3_2x1_1x1 P_3_2x1 P_2x1 P_1x1?-1 ->  P_3_1x1 P_1x1
+tr move_P_4_2x1_2x2 P_4_2x1 P_2x1 P_2x2?-1 ->  P_4_2x2 P_2x2
+tr move_P_4_2x1_3x1 P_4_2x1 P_2x1 P_3x1?-1 ->  P_4_3x1 P_3x1
+tr move_P_4_2x1_2x0 P_4_2x1 P_2x1 P_2x0?-1 ->  P_4_2x0 P_2x0
+tr move_P_4_2x1_1x1 P_4_2x1 P_2x1 P_1x1?-1 ->  P_4_1x1 P_1x1
+tr move_P_5_2x1_2x2 P_5_2x1 P_2x1 P_2x2?-1 ->  P_5_2x2 P_2x2
+tr move_P_5_2x1_3x1 P_5_2x1 P_2x1 P_3x1?-1 ->  P_5_3x1 P_3x1
+tr move_P_5_2x1_2x0 P_5_2x1 P_2x1 P_2x0?-1 ->  P_5_2x0 P_2x0
+tr move_P_5_2x1_1x1 P_5_2x1 P_2x1 P_1x1?-1 ->  P_5_1x1 P_1x1
+tr move_P_6_2x1_2x2 P_6_2x1 P_2x1 P_2x2?-1 ->  P_6_2x2 P_2x2
+tr move_P_6_2x1_3x1 P_6_2x1 P_2x1 P_3x1?-1 ->  P_6_3x1 P_3x1
+tr move_P_6_2x1_2x0 P_6_2x1 P_2x1 P_2x0?-1 ->  P_6_2x0 P_2x0
+tr move_P_6_2x1_1x1 P_6_2x1 P_2x1 P_1x1?-1 ->  P_6_1x1 P_1x1
+tr move_P_7_2x1_2x2 P_7_2x1 P_2x1 P_2x2?-1 ->  P_7_2x2 P_2x2
+tr move_P_7_2x1_3x1 P_7_2x1 P_2x1 P_3x1?-1 ->  P_7_3x1 P_3x1
+tr move_P_7_2x1_2x0 P_7_2x1 P_2x1 P_2x0?-1 ->  P_7_2x0 P_2x0
+tr move_P_7_2x1_1x1 P_7_2x1 P_2x1 P_1x1?-1 ->  P_7_1x1 P_1x1
+tr move_P_8_2x1_2x2 P_8_2x1 P_2x1 P_2x2?-1 ->  P_8_2x2 P_2x2
+tr move_P_8_2x1_3x1 P_8_2x1 P_2x1 P_3x1?-1 ->  P_8_3x1 P_3x1
+tr move_P_8_2x1_2x0 P_8_2x1 P_2x1 P_2x0?-1 ->  P_8_2x0 P_2x0
+tr move_P_8_2x1_1x1 P_8_2x1 P_2x1 P_1x1?-1 ->  P_8_1x1 P_1x1
+tr move_P_9_2x1_2x2 P_9_2x1 P_2x1 P_2x2?-1 ->  P_9_2x2 P_2x2
+tr move_P_9_2x1_3x1 P_9_2x1 P_2x1 P_3x1?-1 ->  P_9_3x1 P_3x1
+tr move_P_9_2x1_2x0 P_9_2x1 P_2x1 P_2x0?-1 ->  P_9_2x0 P_2x0
+tr move_P_9_2x1_1x1 P_9_2x1 P_2x1 P_1x1?-1 ->  P_9_1x1 P_1x1
+tr move_P_10_2x1_2x2 P_10_2x1 P_2x1 P_2x2?-1 ->  P_10_2x2 P_2x2
+tr move_P_10_2x1_3x1 P_10_2x1 P_2x1 P_3x1?-1 ->  P_10_3x1 P_3x1
+tr move_P_10_2x1_2x0 P_10_2x1 P_2x1 P_2x0?-1 ->  P_10_2x0 P_2x0
+tr move_P_10_2x1_1x1 P_10_2x1 P_2x1 P_1x1?-1 ->  P_10_1x1 P_1x1
+tr move_P_11_2x1_2x2 P_11_2x1 P_2x1 P_2x2?-1 ->  P_11_2x2 P_2x2
+tr move_P_11_2x1_3x1 P_11_2x1 P_2x1 P_3x1?-1 ->  P_11_3x1 P_3x1
+tr move_P_11_2x1_2x0 P_11_2x1 P_2x1 P_2x0?-1 ->  P_11_2x0 P_2x0
+tr move_P_11_2x1_1x1 P_11_2x1 P_2x1 P_1x1?-1 ->  P_11_1x1 P_1x1
+tr move_P_0_2x2_3x2 P_0_2x2 P_2x2 P_3x2?-1 ->  P_0_3x2 P_3x2
+tr move_P_0_2x2_2x1 P_0_2x2 P_2x2 P_2x1?-1 ->  P_0_2x1 P_2x1
+tr move_P_0_2x2_1x2 P_0_2x2 P_2x2 P_1x2?-1 ->  P_0_1x2 P_1x2
+tr move_P_1_2x2_3x2 P_1_2x2 P_2x2 P_3x2?-1 ->  P_1_3x2 P_3x2
+tr move_P_1_2x2_2x1 P_1_2x2 P_2x2 P_2x1?-1 ->  P_1_2x1 P_2x1
+tr move_P_1_2x2_1x2 P_1_2x2 P_2x2 P_1x2?-1 ->  P_1_1x2 P_1x2
+tr move_P_2_2x2_3x2 P_2_2x2 P_2x2 P_3x2?-1 ->  P_2_3x2 P_3x2
+tr move_P_2_2x2_2x1 P_2_2x2 P_2x2 P_2x1?-1 ->  P_2_2x1 P_2x1
+tr move_P_2_2x2_1x2 P_2_2x2 P_2x2 P_1x2?-1 ->  P_2_1x2 P_1x2
+tr move_P_3_2x2_3x2 P_3_2x2 P_2x2 P_3x2?-1 ->  P_3_3x2 P_3x2
+tr move_P_3_2x2_2x1 P_3_2x2 P_2x2 P_2x1?-1 ->  P_3_2x1 P_2x1
+tr move_P_3_2x2_1x2 P_3_2x2 P_2x2 P_1x2?-1 ->  P_3_1x2 P_1x2
+tr move_P_4_2x2_3x2 P_4_2x2 P_2x2 P_3x2?-1 ->  P_4_3x2 P_3x2
+tr move_P_4_2x2_2x1 P_4_2x2 P_2x2 P_2x1?-1 ->  P_4_2x1 P_2x1
+tr move_P_4_2x2_1x2 P_4_2x2 P_2x2 P_1x2?-1 ->  P_4_1x2 P_1x2
+tr move_P_5_2x2_3x2 P_5_2x2 P_2x2 P_3x2?-1 ->  P_5_3x2 P_3x2
+tr move_P_5_2x2_2x1 P_5_2x2 P_2x2 P_2x1?-1 ->  P_5_2x1 P_2x1
+tr move_P_5_2x2_1x2 P_5_2x2 P_2x2 P_1x2?-1 ->  P_5_1x2 P_1x2
+tr move_P_6_2x2_3x2 P_6_2x2 P_2x2 P_3x2?-1 ->  P_6_3x2 P_3x2
+tr move_P_6_2x2_2x1 P_6_2x2 P_2x2 P_2x1?-1 ->  P_6_2x1 P_2x1
+tr move_P_6_2x2_1x2 P_6_2x2 P_2x2 P_1x2?-1 ->  P_6_1x2 P_1x2
+tr move_P_7_2x2_3x2 P_7_2x2 P_2x2 P_3x2?-1 ->  P_7_3x2 P_3x2
+tr move_P_7_2x2_2x1 P_7_2x2 P_2x2 P_2x1?-1 ->  P_7_2x1 P_2x1
+tr move_P_7_2x2_1x2 P_7_2x2 P_2x2 P_1x2?-1 ->  P_7_1x2 P_1x2
+tr move_P_8_2x2_3x2 P_8_2x2 P_2x2 P_3x2?-1 ->  P_8_3x2 P_3x2
+tr move_P_8_2x2_2x1 P_8_2x2 P_2x2 P_2x1?-1 ->  P_8_2x1 P_2x1
+tr move_P_8_2x2_1x2 P_8_2x2 P_2x2 P_1x2?-1 ->  P_8_1x2 P_1x2
+tr move_P_9_2x2_3x2 P_9_2x2 P_2x2 P_3x2?-1 ->  P_9_3x2 P_3x2
+tr move_P_9_2x2_2x1 P_9_2x2 P_2x2 P_2x1?-1 ->  P_9_2x1 P_2x1
+tr move_P_9_2x2_1x2 P_9_2x2 P_2x2 P_1x2?-1 ->  P_9_1x2 P_1x2
+tr move_P_10_2x2_3x2 P_10_2x2 P_2x2 P_3x2?-1 ->  P_10_3x2 P_3x2
+tr move_P_10_2x2_2x1 P_10_2x2 P_2x2 P_2x1?-1 ->  P_10_2x1 P_2x1
+tr move_P_10_2x2_1x2 P_10_2x2 P_2x2 P_1x2?-1 ->  P_10_1x2 P_1x2
+tr move_P_11_2x2_3x2 P_11_2x2 P_2x2 P_3x2?-1 ->  P_11_3x2 P_3x2
+tr move_P_11_2x2_2x1 P_11_2x2 P_2x2 P_2x1?-1 ->  P_11_2x1 P_2x1
+tr move_P_11_2x2_1x2 P_11_2x2 P_2x2 P_1x2?-1 ->  P_11_1x2 P_1x2
+tr move_P_0_3x0_3x1 P_0_3x0 P_3x0 P_3x1?-1 ->  P_0_3x1 P_3x1
+tr move_P_0_3x0_2x0 P_0_3x0 P_3x0 P_2x0?-1 ->  P_0_2x0 P_2x0
+tr move_P_1_3x0_3x1 P_1_3x0 P_3x0 P_3x1?-1 ->  P_1_3x1 P_3x1
+tr move_P_1_3x0_2x0 P_1_3x0 P_3x0 P_2x0?-1 ->  P_1_2x0 P_2x0
+tr move_P_2_3x0_3x1 P_2_3x0 P_3x0 P_3x1?-1 ->  P_2_3x1 P_3x1
+tr move_P_2_3x0_2x0 P_2_3x0 P_3x0 P_2x0?-1 ->  P_2_2x0 P_2x0
+tr move_P_3_3x0_3x1 P_3_3x0 P_3x0 P_3x1?-1 ->  P_3_3x1 P_3x1
+tr move_P_3_3x0_2x0 P_3_3x0 P_3x0 P_2x0?-1 ->  P_3_2x0 P_2x0
+tr move_P_4_3x0_3x1 P_4_3x0 P_3x0 P_3x1?-1 ->  P_4_3x1 P_3x1
+tr move_P_4_3x0_2x0 P_4_3x0 P_3x0 P_2x0?-1 ->  P_4_2x0 P_2x0
+tr move_P_5_3x0_3x1 P_5_3x0 P_3x0 P_3x1?-1 ->  P_5_3x1 P_3x1
+tr move_P_5_3x0_2x0 P_5_3x0 P_3x0 P_2x0?-1 ->  P_5_2x0 P_2x0
+tr move_P_6_3x0_3x1 P_6_3x0 P_3x0 P_3x1?-1 ->  P_6_3x1 P_3x1
+tr move_P_6_3x0_2x0 P_6_3x0 P_3x0 P_2x0?-1 ->  P_6_2x0 P_2x0
+tr move_P_7_3x0_3x1 P_7_3x0 P_3x0 P_3x1?-1 ->  P_7_3x1 P_3x1
+tr move_P_7_3x0_2x0 P_7_3x0 P_3x0 P_2x0?-1 ->  P_7_2x0 P_2x0
+tr move_P_8_3x0_3x1 P_8_3x0 P_3x0 P_3x1?-1 ->  P_8_3x1 P_3x1
+tr move_P_8_3x0_2x0 P_8_3x0 P_3x0 P_2x0?-1 ->  P_8_2x0 P_2x0
+tr move_P_9_3x0_3x1 P_9_3x0 P_3x0 P_3x1?-1 ->  P_9_3x1 P_3x1
+tr move_P_9_3x0_2x0 P_9_3x0 P_3x0 P_2x0?-1 ->  P_9_2x0 P_2x0
+tr move_P_10_3x0_3x1 P_10_3x0 P_3x0 P_3x1?-1 ->  P_10_3x1 P_3x1
+tr move_P_10_3x0_2x0 P_10_3x0 P_3x0 P_2x0?-1 ->  P_10_2x0 P_2x0
+tr move_P_11_3x0_3x1 P_11_3x0 P_3x0 P_3x1?-1 ->  P_11_3x1 P_3x1
+tr move_P_11_3x0_2x0 P_11_3x0 P_3x0 P_2x0?-1 ->  P_11_2x0 P_2x0
+tr move_P_0_3x1_3x2 P_0_3x1 P_3x1 P_3x2?-1 ->  P_0_3x2 P_3x2
+tr move_P_0_3x1_3x0 P_0_3x1 P_3x1 P_3x0?-1 ->  P_0_3x0 P_3x0
+tr move_P_0_3x1_2x1 P_0_3x1 P_3x1 P_2x1?-1 ->  P_0_2x1 P_2x1
+tr move_P_1_3x1_3x2 P_1_3x1 P_3x1 P_3x2?-1 ->  P_1_3x2 P_3x2
+tr move_P_1_3x1_3x0 P_1_3x1 P_3x1 P_3x0?-1 ->  P_1_3x0 P_3x0
+tr move_P_1_3x1_2x1 P_1_3x1 P_3x1 P_2x1?-1 ->  P_1_2x1 P_2x1
+tr move_P_2_3x1_3x2 P_2_3x1 P_3x1 P_3x2?-1 ->  P_2_3x2 P_3x2
+tr move_P_2_3x1_3x0 P_2_3x1 P_3x1 P_3x0?-1 ->  P_2_3x0 P_3x0
+tr move_P_2_3x1_2x1 P_2_3x1 P_3x1 P_2x1?-1 ->  P_2_2x1 P_2x1
+tr move_P_3_3x1_3x2 P_3_3x1 P_3x1 P_3x2?-1 ->  P_3_3x2 P_3x2
+tr move_P_3_3x1_3x0 P_3_3x1 P_3x1 P_3x0?-1 ->  P_3_3x0 P_3x0
+tr move_P_3_3x1_2x1 P_3_3x1 P_3x1 P_2x1?-1 ->  P_3_2x1 P_2x1
+tr move_P_4_3x1_3x2 P_4_3x1 P_3x1 P_3x2?-1 ->  P_4_3x2 P_3x2
+tr move_P_4_3x1_3x0 P_4_3x1 P_3x1 P_3x0?-1 ->  P_4_3x0 P_3x0
+tr move_P_4_3x1_2x1 P_4_3x1 P_3x1 P_2x1?-1 ->  P_4_2x1 P_2x1
+tr move_P_5_3x1_3x2 P_5_3x1 P_3x1 P_3x2?-1 ->  P_5_3x2 P_3x2
+tr move_P_5_3x1_3x0 P_5_3x1 P_3x1 P_3x0?-1 ->  P_5_3x0 P_3x0
+tr move_P_5_3x1_2x1 P_5_3x1 P_3x1 P_2x1?-1 ->  P_5_2x1 P_2x1
+tr move_P_6_3x1_3x2 P_6_3x1 P_3x1 P_3x2?-1 ->  P_6_3x2 P_3x2
+tr move_P_6_3x1_3x0 P_6_3x1 P_3x1 P_3x0?-1 ->  P_6_3x0 P_3x0
+tr move_P_6_3x1_2x1 P_6_3x1 P_3x1 P_2x1?-1 ->  P_6_2x1 P_2x1
+tr move_P_7_3x1_3x2 P_7_3x1 P_3x1 P_3x2?-1 ->  P_7_3x2 P_3x2
+tr move_P_7_3x1_3x0 P_7_3x1 P_3x1 P_3x0?-1 ->  P_7_3x0 P_3x0
+tr move_P_7_3x1_2x1 P_7_3x1 P_3x1 P_2x1?-1 ->  P_7_2x1 P_2x1
+tr move_P_8_3x1_3x2 P_8_3x1 P_3x1 P_3x2?-1 ->  P_8_3x2 P_3x2
+tr move_P_8_3x1_3x0 P_8_3x1 P_3x1 P_3x0?-1 ->  P_8_3x0 P_3x0
+tr move_P_8_3x1_2x1 P_8_3x1 P_3x1 P_2x1?-1 ->  P_8_2x1 P_2x1
+tr move_P_9_3x1_3x2 P_9_3x1 P_3x1 P_3x2?-1 ->  P_9_3x2 P_3x2
+tr move_P_9_3x1_3x0 P_9_3x1 P_3x1 P_3x0?-1 ->  P_9_3x0 P_3x0
+tr move_P_9_3x1_2x1 P_9_3x1 P_3x1 P_2x1?-1 ->  P_9_2x1 P_2x1
+tr move_P_10_3x1_3x2 P_10_3x1 P_3x1 P_3x2?-1 ->  P_10_3x2 P_3x2
+tr move_P_10_3x1_3x0 P_10_3x1 P_3x1 P_3x0?-1 ->  P_10_3x0 P_3x0
+tr move_P_10_3x1_2x1 P_10_3x1 P_3x1 P_2x1?-1 ->  P_10_2x1 P_2x1
+tr move_P_11_3x1_3x2 P_11_3x1 P_3x1 P_3x2?-1 ->  P_11_3x2 P_3x2
+tr move_P_11_3x1_3x0 P_11_3x1 P_3x1 P_3x0?-1 ->  P_11_3x0 P_3x0
+tr move_P_11_3x1_2x1 P_11_3x1 P_3x1 P_2x1?-1 ->  P_11_2x1 P_2x1
+tr move_P_0_3x2_3x1 P_0_3x2 P_3x2 P_3x1?-1 ->  P_0_3x1 P_3x1
+tr move_P_0_3x2_2x2 P_0_3x2 P_3x2 P_2x2?-1 ->  P_0_2x2 P_2x2
+tr move_P_1_3x2_3x1 P_1_3x2 P_3x2 P_3x1?-1 ->  P_1_3x1 P_3x1
+tr move_P_1_3x2_2x2 P_1_3x2 P_3x2 P_2x2?-1 ->  P_1_2x2 P_2x2
+tr move_P_2_3x2_3x1 P_2_3x2 P_3x2 P_3x1?-1 ->  P_2_3x1 P_3x1
+tr move_P_2_3x2_2x2 P_2_3x2 P_3x2 P_2x2?-1 ->  P_2_2x2 P_2x2
+tr move_P_3_3x2_3x1 P_3_3x2 P_3x2 P_3x1?-1 ->  P_3_3x1 P_3x1
+tr move_P_3_3x2_2x2 P_3_3x2 P_3x2 P_2x2?-1 ->  P_3_2x2 P_2x2
+tr move_P_4_3x2_3x1 P_4_3x2 P_3x2 P_3x1?-1 ->  P_4_3x1 P_3x1
+tr move_P_4_3x2_2x2 P_4_3x2 P_3x2 P_2x2?-1 ->  P_4_2x2 P_2x2
+tr move_P_5_3x2_3x1 P_5_3x2 P_3x2 P_3x1?-1 ->  P_5_3x1 P_3x1
+tr move_P_5_3x2_2x2 P_5_3x2 P_3x2 P_2x2?-1 ->  P_5_2x2 P_2x2
+tr move_P_6_3x2_3x1 P_6_3x2 P_3x2 P_3x1?-1 ->  P_6_3x1 P_3x1
+tr move_P_6_3x2_2x2 P_6_3x2 P_3x2 P_2x2?-1 ->  P_6_2x2 P_2x2
+tr move_P_7_3x2_3x1 P_7_3x2 P_3x2 P_3x1?-1 ->  P_7_3x1 P_3x1
+tr move_P_7_3x2_2x2 P_7_3x2 P_3x2 P_2x2?-1 ->  P_7_2x2 P_2x2
+tr move_P_8_3x2_3x1 P_8_3x2 P_3x2 P_3x1?-1 ->  P_8_3x1 P_3x1
+tr move_P_8_3x2_2x2 P_8_3x2 P_3x2 P_2x2?-1 ->  P_8_2x2 P_2x2
+tr move_P_9_3x2_3x1 P_9_3x2 P_3x2 P_3x1?-1 ->  P_9_3x1 P_3x1
+tr move_P_9_3x2_2x2 P_9_3x2 P_3x2 P_2x2?-1 ->  P_9_2x2 P_2x2
+tr move_P_10_3x2_3x1 P_10_3x2 P_3x2 P_3x1?-1 ->  P_10_3x1 P_3x1
+tr move_P_10_3x2_2x2 P_10_3x2 P_3x2 P_2x2?-1 ->  P_10_2x2 P_2x2
+tr move_P_11_3x2_3x1 P_11_3x2 P_3x2 P_3x1?-1 ->  P_11_3x1 P_3x1
+tr move_P_11_3x2_2x2 P_11_3x2 P_3x2 P_2x2?-1 ->  P_11_2x2 P_2x2

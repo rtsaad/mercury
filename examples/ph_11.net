@@ -1,0 +1,67 @@
+net philosopher_11
+pl f1 (1)
+pl f10 (1)
+pl f11 (1)
+pl f2 (1)
+pl f3 (1)
+pl f4 (1)
+pl f5 (1)
+pl f6 (1)
+pl f7 (1)
+pl f8 (1)
+pl f9 (1)
+pl i1 (1)
+pl i10 (1)
+pl i11 (1)
+pl i2 (1)
+pl i3 (1)
+pl i4 (1)
+pl i5 (1)
+pl i6 (1)
+pl i7 (1)
+pl i8 (1)
+pl i9 (1)
+tr g1 gl1 gr1 -> f1 f2 i1 
+tr g10 gl10 gr10 -> f10 f11 i10 
+tr g11 gl11 gr11 -> f1 f11 i11 
+tr g2 gl2 gr2 -> f2 f3 i2 
+tr g3 gl3 gr3 -> f3 f4 i3 
+tr g4 gl4 gr4 -> f4 f5 i4 
+tr g5 gl5 gr5 -> f5 f6 i5 
+tr g6 gl6 gr6 -> f6 f7 i6 
+tr g7 gl7 gr7 -> f7 f8 i7 
+tr g8 gl8 gr8 -> f8 f9 i8 
+tr g9 gl9 gr9 -> f10 f9 i9 
+tr h1 i1 -> wl1 wr1 
+tr h10 i10 -> wl10 wr10 
+tr h11 i11 -> wl11 wr11 
+tr h2 i2 -> wl2 wr2 
+tr h3 i3 -> wl3 wr3 
+tr h4 i4 -> wl4 wr4 
+tr h5 i5 -> wl5 wr5 
+tr h6 i6 -> wl6 wr6 
+tr h7 i7 -> wl7 wr7 
+tr h8 i8 -> wl8 wr8 
+tr h9 i9 -> wl9 wr9 
+tr tl1 f1 wl1 -> gl1 
+tr tl10 f10 wl10 -> gl10 
+tr tl11 f11 wl11 -> gl11 
+tr tl2 f2 wl2 -> gl2 
+tr tl3 f3 wl3 -> gl3 
+tr tl4 f4 wl4 -> gl4 
+tr tl5 f5 wl5 -> gl5 
+tr tl6 f6 wl6 -> gl6 
+tr tl7 f7 wl7 -> gl7 
+tr tl8 f8 wl8 -> gl8 
+tr tl9 f9 wl9 -> gl9 
+tr tr1 f2 wr1 -> gr1 
+tr tr10 f11 wr10 -> gr10 
+tr tr11 f1 wr11 -> gr11 
+tr tr2 f3 wr2 -> gr2 
+tr tr3 f4 wr3 -> gr3 
+tr tr4 f5 wr4 -> gr4 
+tr tr5 f6 wr5 -> gr5 
+tr tr6 f7 wr6 -> gr6 
+tr tr7 f8 wr7 -> gr7 
+tr tr8 f9 wr8 -> gr8 
+tr tr9 f10 wr9 -> gr9

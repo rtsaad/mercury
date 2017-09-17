@@ -1,0 +1,52 @@
+net solitaire_15
+pl p2 (1)
+pl p4 (1)
+pl p3 (1)
+pl p6 (1)
+pl p7 (1)
+pl p8 (1)
+pl p9 (1)
+pl p5 (1)
+pl p10 (1)
+pl p13 (1)
+pl p14 (1)
+pl p15 (1)
+pl p12 (1)
+pl p11 (1)
+tr t0 [0,w[ p2 p1 p4?-1 -> p4
+tr t1 [0,w[ p3 p1 p6?-1 -> p6
+tr t2 [0,w[ p5 p2 p9?-1 -> p9
+tr t3 [0,w[ p2 p4 p1?-1 -> p1
+tr t4 [0,w[ p3 p6 p1?-1 -> p1
+tr t5 [0,w[ p5 p3 p8?-1 -> p8
+tr t8 [0,w[ p4 p7 p2?-1 -> p2
+tr t9 [0,w[ p4 p2 p7?-1 -> p7
+tr t12 [0,w[ p5 p4 p6?-1 -> p6
+tr t10 [0,w[ p6 p3 p10?-1 -> p10
+tr t11 [0,w[ p6 p10 p3?-1 -> p3
+tr t13 [0,w[ p7 p11 p4?-1 -> p4
+tr t14 [0,w[ p5 p6 p4?-1 -> p4
+tr t15 [0,w[ p7 p4 p11?-1 -> p11
+tr t16 [0,w[ p8 p7 p9?-1 -> p9
+tr t21 [0,w[ p8 p9 p7?-1 -> p7
+tr t20 [0,w[ p9 p10 p8?-1 -> p8
+tr t22 [0,w[ p10 p15 p6?-1 -> p6
+tr t23 [0,w[ p6 p10 p15?-1 -> p15
+tr t17 [0,w[ p8 p12 p5?-1 -> p5
+tr t24 [0,w[ p9 p13 p6?-1 -> p6
+tr t25 [0,w[ p6 p9 p13?-1 -> p13
+tr t18 [0,w[ p5 p8 p12?-1 -> p12
+tr t19 [0,w[ p9 p8 p10?-1 -> p10
+tr t26 [0,w[ p9 p14 p5?-1 -> p5
+tr t27 [0,w[ p5 p9 p14?-1 -> p14
+tr t28 [0,w[ p8 p13 p4?-1 -> p4
+tr t29 [0,w[ p4 p8 p13?-1 -> p13
+tr t6 [0,w[ p5 p8 p3?-1 -> p3
+tr t7 [0,w[ p5 p9 p2?-1 -> p2
+tr t30 [0,w[ p12 p11 p13?-1 -> p13
+tr t33 [0,w[ p14 p15 p13?-1 -> p13
+tr t35 [0,w[ p12 p13 p11?-1 -> p11
+tr t31 [0,w[ p13 p12 p14?-1 -> p14
+tr t34 [0,w[ p13 p14 p12?-1 -> p12
+tr t32 [0,w[ p14 p13 p15?-1 -> p15
+

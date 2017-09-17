@@ -1,0 +1,514 @@
+net Sokoban
+pl p0x0_Wall (1)
+pl p0x1_Wall (1)
+pl p0x2_Wall (1)
+pl p0x3_Wall (1)
+pl p0x4_Wall (1)
+pl p0x5_Wall (1)
+pl p0x6_Wall (1)
+pl p0x7_Wall (1)
+pl p1x0_Wall (1)
+pl p1x1_Free (1)
+pl p1x2_Free (1)
+pl p1x3_Free (1)
+pl p1x4_Wall (1)
+pl p1x5_Wall (1)
+pl p1x6_Wall (1)
+pl p1x7_Wall (1)
+pl p2x0_Wall (1)
+pl p2x1_Box (1)
+pl p2x2_Wall (1)
+pl p2x3_Free (1)
+pl p2x4_Wall (1)
+pl p2x5_Wall (1)
+pl p2x6_Wall (1)
+pl p2x7_Wall (1)
+pl p3x0_Wall (1)
+pl p3x1_Free (1)
+pl p3x2_Free (1)
+pl p3x3_Free (1)
+pl p3x4_Free (1)
+pl p3x5_Free (1)
+pl p3x6_Free (1)
+pl p3x7_Wall (1)
+pl p4x0_Wall (1)
+pl p4x1_Free (1)
+pl p4x2_Free (1)
+pl p4x3_Box (1)
+pl p4x4_Free (1)
+pl p4x5_Box (1)
+pl p4x6_Free (1)
+pl p4x7_Wall (1)
+pl p5x0_Wall (1)
+pl p5x1_Free (1)
+pl p5x2_Box (1)
+pl p5x3_Player (1)
+pl p5x4_Wall (1)
+pl p5x5_Free (1)
+pl p5x6_Wall (1)
+pl p5x7_Wall (1)
+pl p6x0_Wall (1)
+pl p6x1_Wall (1)
+pl p6x2_Wall (1)
+pl p6x3_Free (1)
+pl p6x4_Free (1)
+pl p6x5_Free (1)
+pl p6x6_Wall (1)
+pl p6x7_Wall (1)
+pl p7x0_Wall (1)
+pl p7x1_Wall (1)
+pl p7x2_Wall (1)
+pl p7x3_Wall (1)
+pl p7x4_Wall (1)
+pl p7x5_Wall (1)
+pl p7x6_Wall (1)
+pl p7x7_Wall (1)
+tr move_player_p0x0_to_p1x0 p0x0_Player p1x0_Free -> p0x0_Free p1x0_Player
+tr move_player_p0x0_to_p0x1 p0x0_Player p0x1_Free -> p0x0_Free p0x1_Player
+tr move_box_p1x0_to_p2x0 p0x0_Player p1x0_Box p2x0_Free -> p0x0_Free p1x0_Player p2x0_Box
+tr move_box_p0x1_to_p0x2 p0x0_Player p0x1_Box p0x2_Free -> p0x0_Free p0x1_Player p0x2_Box
+tr move_player_p0x1_to_p1x1 p0x1_Player p1x1_Free -> p0x1_Free p1x1_Player
+tr move_player_p0x1_to_p0x0 p0x1_Player p0x0_Free -> p0x1_Free p0x0_Player
+tr move_player_p0x1_to_p0x2 p0x1_Player p0x2_Free -> p0x1_Free p0x2_Player
+tr move_box_p1x1_to_p2x1 p0x1_Player p1x1_Box p2x1_Free -> p0x1_Free p1x1_Player p2x1_Box
+tr move_box_p0x2_to_p0x3 p0x1_Player p0x2_Box p0x3_Free -> p0x1_Free p0x2_Player p0x3_Box
+tr move_player_p0x2_to_p1x2 p0x2_Player p1x2_Free -> p0x2_Free p1x2_Player
+tr move_player_p0x2_to_p0x1 p0x2_Player p0x1_Free -> p0x2_Free p0x1_Player
+tr move_player_p0x2_to_p0x3 p0x2_Player p0x3_Free -> p0x2_Free p0x3_Player
+tr move_box_p1x2_to_p2x2 p0x2_Player p1x2_Box p2x2_Free -> p0x2_Free p1x2_Player p2x2_Box
+tr move_box_p0x1_to_p0x0 p0x2_Player p0x1_Box p0x0_Free -> p0x2_Free p0x1_Player p0x0_Box
+tr move_box_p0x3_to_p0x4 p0x2_Player p0x3_Box p0x4_Free -> p0x2_Free p0x3_Player p0x4_Box
+tr move_player_p0x3_to_p1x3 p0x3_Player p1x3_Free -> p0x3_Free p1x3_Player
+tr move_player_p0x3_to_p0x2 p0x3_Player p0x2_Free -> p0x3_Free p0x2_Player
+tr move_player_p0x3_to_p0x4 p0x3_Player p0x4_Free -> p0x3_Free p0x4_Player
+tr move_box_p1x3_to_p2x3 p0x3_Player p1x3_Box p2x3_Free -> p0x3_Free p1x3_Player p2x3_Box
+tr move_box_p0x2_to_p0x1 p0x3_Player p0x2_Box p0x1_Free -> p0x3_Free p0x2_Player p0x1_Box
+tr move_box_p0x4_to_p0x5 p0x3_Player p0x4_Box p0x5_Free -> p0x3_Free p0x4_Player p0x5_Box
+tr move_player_p0x4_to_p1x4 p0x4_Player p1x4_Free -> p0x4_Free p1x4_Player
+tr move_player_p0x4_to_p0x3 p0x4_Player p0x3_Free -> p0x4_Free p0x3_Player
+tr move_player_p0x4_to_p0x5 p0x4_Player p0x5_Free -> p0x4_Free p0x5_Player
+tr move_box_p1x4_to_p2x4 p0x4_Player p1x4_Box p2x4_Free -> p0x4_Free p1x4_Player p2x4_Box
+tr move_box_p0x3_to_p0x2 p0x4_Player p0x3_Box p0x2_Free -> p0x4_Free p0x3_Player p0x2_Box
+tr move_box_p0x5_to_p0x6 p0x4_Player p0x5_Box p0x6_Free -> p0x4_Free p0x5_Player p0x6_Box
+tr move_player_p0x5_to_p1x5 p0x5_Player p1x5_Free -> p0x5_Free p1x5_Player
+tr move_player_p0x5_to_p0x4 p0x5_Player p0x4_Free -> p0x5_Free p0x4_Player
+tr move_player_p0x5_to_p0x6 p0x5_Player p0x6_Free -> p0x5_Free p0x6_Player
+tr move_box_p1x5_to_p2x5 p0x5_Player p1x5_Box p2x5_Free -> p0x5_Free p1x5_Player p2x5_Box
+tr move_box_p0x4_to_p0x3 p0x5_Player p0x4_Box p0x3_Free -> p0x5_Free p0x4_Player p0x3_Box
+tr move_box_p0x6_to_p0x7 p0x5_Player p0x6_Box p0x7_Free -> p0x5_Free p0x6_Player p0x7_Box
+tr move_player_p0x6_to_p1x6 p0x6_Player p1x6_Free -> p0x6_Free p1x6_Player
+tr move_player_p0x6_to_p0x5 p0x6_Player p0x5_Free -> p0x6_Free p0x5_Player
+tr move_player_p0x6_to_p0x7 p0x6_Player p0x7_Free -> p0x6_Free p0x7_Player
+tr move_box_p1x6_to_p2x6 p0x6_Player p1x6_Box p2x6_Free -> p0x6_Free p1x6_Player p2x6_Box
+tr move_box_p0x5_to_p0x4 p0x6_Player p0x5_Box p0x4_Free -> p0x6_Free p0x5_Player p0x4_Box
+tr move_box_p0x7_to_p0x8 p0x6_Player p0x7_Box p0x8_Free -> p0x6_Free p0x7_Player p0x8_Box
+tr move_player_p0x7_to_p1x7 p0x7_Player p1x7_Free -> p0x7_Free p1x7_Player
+tr move_player_p0x7_to_p0x6 p0x7_Player p0x6_Free -> p0x7_Free p0x6_Player
+tr move_player_p0x7_to_p0x8 p0x7_Player p0x8_Free -> p0x7_Free p0x8_Player
+tr move_box_p1x7_to_p2x7 p0x7_Player p1x7_Box p2x7_Free -> p0x7_Free p1x7_Player p2x7_Box
+tr move_box_p0x6_to_p0x5 p0x7_Player p0x6_Box p0x5_Free -> p0x7_Free p0x6_Player p0x5_Box
+tr move_player_p1x0_to_p0x0 p1x0_Player p0x0_Free -> p1x0_Free p0x0_Player
+tr move_player_p1x0_to_p2x0 p1x0_Player p2x0_Free -> p1x0_Free p2x0_Player
+tr move_player_p1x0_to_p1x1 p1x0_Player p1x1_Free -> p1x0_Free p1x1_Player
+tr move_box_p2x0_to_p3x0 p1x0_Player p2x0_Box p3x0_Free -> p1x0_Free p2x0_Player p3x0_Box
+tr move_box_p1x1_to_p1x2 p1x0_Player p1x1_Box p1x2_Free -> p1x0_Free p1x1_Player p1x2_Box
+tr move_player_p1x1_to_p0x1 p1x1_Player p0x1_Free -> p1x1_Free p0x1_Player
+tr move_player_p1x1_to_p2x1 p1x1_Player p2x1_Free -> p1x1_Free p2x1_Player
+tr move_player_p1x1_to_p1x0 p1x1_Player p1x0_Free -> p1x1_Free p1x0_Player
+tr move_player_p1x1_to_p1x2 p1x1_Player p1x2_Free -> p1x1_Free p1x2_Player
+tr move_box_p2x1_to_p3x1 p1x1_Player p2x1_Box p3x1_Free -> p1x1_Free p2x1_Player p3x1_Box
+tr move_box_p1x2_to_p1x3 p1x1_Player p1x2_Box p1x3_Free -> p1x1_Free p1x2_Player p1x3_Box
+tr move_player_p1x2_to_p0x2 p1x2_Player p0x2_Free -> p1x2_Free p0x2_Player
+tr move_player_p1x2_to_p2x2 p1x2_Player p2x2_Free -> p1x2_Free p2x2_Player
+tr move_player_p1x2_to_p1x1 p1x2_Player p1x1_Free -> p1x2_Free p1x1_Player
+tr move_player_p1x2_to_p1x3 p1x2_Player p1x3_Free -> p1x2_Free p1x3_Player
+tr move_box_p2x2_to_p3x2 p1x2_Player p2x2_Box p3x2_Free -> p1x2_Free p2x2_Player p3x2_Box
+tr move_box_p1x1_to_p1x0 p1x2_Player p1x1_Box p1x0_Free -> p1x2_Free p1x1_Player p1x0_Box
+tr move_box_p1x3_to_p1x4 p1x2_Player p1x3_Box p1x4_Free -> p1x2_Free p1x3_Player p1x4_Box
+tr move_player_p1x3_to_p0x3 p1x3_Player p0x3_Free -> p1x3_Free p0x3_Player
+tr move_player_p1x3_to_p2x3 p1x3_Player p2x3_Free -> p1x3_Free p2x3_Player
+tr move_player_p1x3_to_p1x2 p1x3_Player p1x2_Free -> p1x3_Free p1x2_Player
+tr move_player_p1x3_to_p1x4 p1x3_Player p1x4_Free -> p1x3_Free p1x4_Player
+tr move_box_p2x3_to_p3x3 p1x3_Player p2x3_Box p3x3_Free -> p1x3_Free p2x3_Player p3x3_Box
+tr move_box_p1x2_to_p1x1 p1x3_Player p1x2_Box p1x1_Free -> p1x3_Free p1x2_Player p1x1_Box
+tr move_box_p1x4_to_p1x5 p1x3_Player p1x4_Box p1x5_Free -> p1x3_Free p1x4_Player p1x5_Box
+tr move_player_p1x4_to_p0x4 p1x4_Player p0x4_Free -> p1x4_Free p0x4_Player
+tr move_player_p1x4_to_p2x4 p1x4_Player p2x4_Free -> p1x4_Free p2x4_Player
+tr move_player_p1x4_to_p1x3 p1x4_Player p1x3_Free -> p1x4_Free p1x3_Player
+tr move_player_p1x4_to_p1x5 p1x4_Player p1x5_Free -> p1x4_Free p1x5_Player
+tr move_box_p2x4_to_p3x4 p1x4_Player p2x4_Box p3x4_Free -> p1x4_Free p2x4_Player p3x4_Box
+tr move_box_p1x3_to_p1x2 p1x4_Player p1x3_Box p1x2_Free -> p1x4_Free p1x3_Player p1x2_Box
+tr move_box_p1x5_to_p1x6 p1x4_Player p1x5_Box p1x6_Free -> p1x4_Free p1x5_Player p1x6_Box
+tr move_player_p1x5_to_p0x5 p1x5_Player p0x5_Free -> p1x5_Free p0x5_Player
+tr move_player_p1x5_to_p2x5 p1x5_Player p2x5_Free -> p1x5_Free p2x5_Player
+tr move_player_p1x5_to_p1x4 p1x5_Player p1x4_Free -> p1x5_Free p1x4_Player
+tr move_player_p1x5_to_p1x6 p1x5_Player p1x6_Free -> p1x5_Free p1x6_Player
+tr move_box_p2x5_to_p3x5 p1x5_Player p2x5_Box p3x5_Free -> p1x5_Free p2x5_Player p3x5_Box
+tr move_box_p1x4_to_p1x3 p1x5_Player p1x4_Box p1x3_Free -> p1x5_Free p1x4_Player p1x3_Box
+tr move_box_p1x6_to_p1x7 p1x5_Player p1x6_Box p1x7_Free -> p1x5_Free p1x6_Player p1x7_Box
+tr move_player_p1x6_to_p0x6 p1x6_Player p0x6_Free -> p1x6_Free p0x6_Player
+tr move_player_p1x6_to_p2x6 p1x6_Player p2x6_Free -> p1x6_Free p2x6_Player
+tr move_player_p1x6_to_p1x5 p1x6_Player p1x5_Free -> p1x6_Free p1x5_Player
+tr move_player_p1x6_to_p1x7 p1x6_Player p1x7_Free -> p1x6_Free p1x7_Player
+tr move_box_p2x6_to_p3x6 p1x6_Player p2x6_Box p3x6_Free -> p1x6_Free p2x6_Player p3x6_Box
+tr move_box_p1x5_to_p1x4 p1x6_Player p1x5_Box p1x4_Free -> p1x6_Free p1x5_Player p1x4_Box
+tr move_box_p1x7_to_p1x8 p1x6_Player p1x7_Box p1x8_Free -> p1x6_Free p1x7_Player p1x8_Box
+tr move_player_p1x7_to_p0x7 p1x7_Player p0x7_Free -> p1x7_Free p0x7_Player
+tr move_player_p1x7_to_p2x7 p1x7_Player p2x7_Free -> p1x7_Free p2x7_Player
+tr move_player_p1x7_to_p1x6 p1x7_Player p1x6_Free -> p1x7_Free p1x6_Player
+tr move_player_p1x7_to_p1x8 p1x7_Player p1x8_Free -> p1x7_Free p1x8_Player
+tr move_box_p2x7_to_p3x7 p1x7_Player p2x7_Box p3x7_Free -> p1x7_Free p2x7_Player p3x7_Box
+tr move_box_p1x6_to_p1x5 p1x7_Player p1x6_Box p1x5_Free -> p1x7_Free p1x6_Player p1x5_Box
+tr move_player_p2x0_to_p1x0 p2x0_Player p1x0_Free -> p2x0_Free p1x0_Player
+tr move_player_p2x0_to_p3x0 p2x0_Player p3x0_Free -> p2x0_Free p3x0_Player
+tr move_player_p2x0_to_p2x1 p2x0_Player p2x1_Free -> p2x0_Free p2x1_Player
+tr move_box_p1x0_to_p0x0 p2x0_Player p1x0_Box p0x0_Free -> p2x0_Free p1x0_Player p0x0_Box
+tr move_box_p3x0_to_p4x0 p2x0_Player p3x0_Box p4x0_Free -> p2x0_Free p3x0_Player p4x0_Box
+tr move_box_p2x1_to_p2x2 p2x0_Player p2x1_Box p2x2_Free -> p2x0_Free p2x1_Player p2x2_Box
+tr move_player_p2x1_to_p1x1 p2x1_Player p1x1_Free -> p2x1_Free p1x1_Player
+tr move_player_p2x1_to_p3x1 p2x1_Player p3x1_Free -> p2x1_Free p3x1_Player
+tr move_player_p2x1_to_p2x0 p2x1_Player p2x0_Free -> p2x1_Free p2x0_Player
+tr move_player_p2x1_to_p2x2 p2x1_Player p2x2_Free -> p2x1_Free p2x2_Player
+tr move_box_p1x1_to_p0x1 p2x1_Player p1x1_Box p0x1_Free -> p2x1_Free p1x1_Player p0x1_Box
+tr move_box_p3x1_to_p4x1 p2x1_Player p3x1_Box p4x1_Free -> p2x1_Free p3x1_Player p4x1_Box
+tr move_box_p2x2_to_p2x3 p2x1_Player p2x2_Box p2x3_Free -> p2x1_Free p2x2_Player p2x3_Box
+tr move_player_p2x2_to_p1x2 p2x2_Player p1x2_Free -> p2x2_Free p1x2_Player
+tr move_player_p2x2_to_p3x2 p2x2_Player p3x2_Free -> p2x2_Free p3x2_Player
+tr move_player_p2x2_to_p2x1 p2x2_Player p2x1_Free -> p2x2_Free p2x1_Player
+tr move_player_p2x2_to_p2x3 p2x2_Player p2x3_Free -> p2x2_Free p2x3_Player
+tr move_box_p1x2_to_p0x2 p2x2_Player p1x2_Box p0x2_Free -> p2x2_Free p1x2_Player p0x2_Box
+tr move_box_p3x2_to_p4x2 p2x2_Player p3x2_Box p4x2_Free -> p2x2_Free p3x2_Player p4x2_Box
+tr move_box_p2x1_to_p2x0 p2x2_Player p2x1_Box p2x0_Free -> p2x2_Free p2x1_Player p2x0_Box
+tr move_box_p2x3_to_p2x4 p2x2_Player p2x3_Box p2x4_Free -> p2x2_Free p2x3_Player p2x4_Box
+tr move_player_p2x3_to_p1x3 p2x3_Player p1x3_Free -> p2x3_Free p1x3_Player
+tr move_player_p2x3_to_p3x3 p2x3_Player p3x3_Free -> p2x3_Free p3x3_Player
+tr move_player_p2x3_to_p2x2 p2x3_Player p2x2_Free -> p2x3_Free p2x2_Player
+tr move_player_p2x3_to_p2x4 p2x3_Player p2x4_Free -> p2x3_Free p2x4_Player
+tr move_box_p1x3_to_p0x3 p2x3_Player p1x3_Box p0x3_Free -> p2x3_Free p1x3_Player p0x3_Box
+tr move_box_p3x3_to_p4x3 p2x3_Player p3x3_Box p4x3_Free -> p2x3_Free p3x3_Player p4x3_Box
+tr move_box_p2x2_to_p2x1 p2x3_Player p2x2_Box p2x1_Free -> p2x3_Free p2x2_Player p2x1_Box
+tr move_box_p2x4_to_p2x5 p2x3_Player p2x4_Box p2x5_Free -> p2x3_Free p2x4_Player p2x5_Box
+tr move_player_p2x4_to_p1x4 p2x4_Player p1x4_Free -> p2x4_Free p1x4_Player
+tr move_player_p2x4_to_p3x4 p2x4_Player p3x4_Free -> p2x4_Free p3x4_Player
+tr move_player_p2x4_to_p2x3 p2x4_Player p2x3_Free -> p2x4_Free p2x3_Player
+tr move_player_p2x4_to_p2x5 p2x4_Player p2x5_Free -> p2x4_Free p2x5_Player
+tr move_box_p1x4_to_p0x4 p2x4_Player p1x4_Box p0x4_Free -> p2x4_Free p1x4_Player p0x4_Box
+tr move_box_p3x4_to_p4x4 p2x4_Player p3x4_Box p4x4_Free -> p2x4_Free p3x4_Player p4x4_Box
+tr move_box_p2x3_to_p2x2 p2x4_Player p2x3_Box p2x2_Free -> p2x4_Free p2x3_Player p2x2_Box
+tr move_box_p2x5_to_p2x6 p2x4_Player p2x5_Box p2x6_Free -> p2x4_Free p2x5_Player p2x6_Box
+tr move_player_p2x5_to_p1x5 p2x5_Player p1x5_Free -> p2x5_Free p1x5_Player
+tr move_player_p2x5_to_p3x5 p2x5_Player p3x5_Free -> p2x5_Free p3x5_Player
+tr move_player_p2x5_to_p2x4 p2x5_Player p2x4_Free -> p2x5_Free p2x4_Player
+tr move_player_p2x5_to_p2x6 p2x5_Player p2x6_Free -> p2x5_Free p2x6_Player
+tr move_box_p1x5_to_p0x5 p2x5_Player p1x5_Box p0x5_Free -> p2x5_Free p1x5_Player p0x5_Box
+tr move_box_p3x5_to_p4x5 p2x5_Player p3x5_Box p4x5_Free -> p2x5_Free p3x5_Player p4x5_Box
+tr move_box_p2x4_to_p2x3 p2x5_Player p2x4_Box p2x3_Free -> p2x5_Free p2x4_Player p2x3_Box
+tr move_box_p2x6_to_p2x7 p2x5_Player p2x6_Box p2x7_Free -> p2x5_Free p2x6_Player p2x7_Box
+tr move_player_p2x6_to_p1x6 p2x6_Player p1x6_Free -> p2x6_Free p1x6_Player
+tr move_player_p2x6_to_p3x6 p2x6_Player p3x6_Free -> p2x6_Free p3x6_Player
+tr move_player_p2x6_to_p2x5 p2x6_Player p2x5_Free -> p2x6_Free p2x5_Player
+tr move_player_p2x6_to_p2x7 p2x6_Player p2x7_Free -> p2x6_Free p2x7_Player
+tr move_box_p1x6_to_p0x6 p2x6_Player p1x6_Box p0x6_Free -> p2x6_Free p1x6_Player p0x6_Box
+tr move_box_p3x6_to_p4x6 p2x6_Player p3x6_Box p4x6_Free -> p2x6_Free p3x6_Player p4x6_Box
+tr move_box_p2x5_to_p2x4 p2x6_Player p2x5_Box p2x4_Free -> p2x6_Free p2x5_Player p2x4_Box
+tr move_box_p2x7_to_p2x8 p2x6_Player p2x7_Box p2x8_Free -> p2x6_Free p2x7_Player p2x8_Box
+tr move_player_p2x7_to_p1x7 p2x7_Player p1x7_Free -> p2x7_Free p1x7_Player
+tr move_player_p2x7_to_p3x7 p2x7_Player p3x7_Free -> p2x7_Free p3x7_Player
+tr move_player_p2x7_to_p2x6 p2x7_Player p2x6_Free -> p2x7_Free p2x6_Player
+tr move_player_p2x7_to_p2x8 p2x7_Player p2x8_Free -> p2x7_Free p2x8_Player
+tr move_box_p1x7_to_p0x7 p2x7_Player p1x7_Box p0x7_Free -> p2x7_Free p1x7_Player p0x7_Box
+tr move_box_p3x7_to_p4x7 p2x7_Player p3x7_Box p4x7_Free -> p2x7_Free p3x7_Player p4x7_Box
+tr move_box_p2x6_to_p2x5 p2x7_Player p2x6_Box p2x5_Free -> p2x7_Free p2x6_Player p2x5_Box
+tr move_player_p3x0_to_p2x0 p3x0_Player p2x0_Free -> p3x0_Free p2x0_Player
+tr move_player_p3x0_to_p4x0 p3x0_Player p4x0_Free -> p3x0_Free p4x0_Player
+tr move_player_p3x0_to_p3x1 p3x0_Player p3x1_Free -> p3x0_Free p3x1_Player
+tr move_box_p2x0_to_p1x0 p3x0_Player p2x0_Box p1x0_Free -> p3x0_Free p2x0_Player p1x0_Box
+tr move_box_p4x0_to_p5x0 p3x0_Player p4x0_Box p5x0_Free -> p3x0_Free p4x0_Player p5x0_Box
+tr move_box_p3x1_to_p3x2 p3x0_Player p3x1_Box p3x2_Free -> p3x0_Free p3x1_Player p3x2_Box
+tr move_player_p3x1_to_p2x1 p3x1_Player p2x1_Free -> p3x1_Free p2x1_Player
+tr move_player_p3x1_to_p4x1 p3x1_Player p4x1_Free -> p3x1_Free p4x1_Player
+tr move_player_p3x1_to_p3x0 p3x1_Player p3x0_Free -> p3x1_Free p3x0_Player
+tr move_player_p3x1_to_p3x2 p3x1_Player p3x2_Free -> p3x1_Free p3x2_Player
+tr move_box_p2x1_to_p1x1 p3x1_Player p2x1_Box p1x1_Free -> p3x1_Free p2x1_Player p1x1_Box
+tr move_box_p4x1_to_p5x1 p3x1_Player p4x1_Box p5x1_Free -> p3x1_Free p4x1_Player p5x1_Box
+tr move_box_p3x2_to_p3x3 p3x1_Player p3x2_Box p3x3_Free -> p3x1_Free p3x2_Player p3x3_Box
+tr move_player_p3x2_to_p2x2 p3x2_Player p2x2_Free -> p3x2_Free p2x2_Player
+tr move_player_p3x2_to_p4x2 p3x2_Player p4x2_Free -> p3x2_Free p4x2_Player
+tr move_player_p3x2_to_p3x1 p3x2_Player p3x1_Free -> p3x2_Free p3x1_Player
+tr move_player_p3x2_to_p3x3 p3x2_Player p3x3_Free -> p3x2_Free p3x3_Player
+tr move_box_p2x2_to_p1x2 p3x2_Player p2x2_Box p1x2_Free -> p3x2_Free p2x2_Player p1x2_Box
+tr move_box_p4x2_to_p5x2 p3x2_Player p4x2_Box p5x2_Free -> p3x2_Free p4x2_Player p5x2_Box
+tr move_box_p3x1_to_p3x0 p3x2_Player p3x1_Box p3x0_Free -> p3x2_Free p3x1_Player p3x0_Box
+tr move_box_p3x3_to_p3x4 p3x2_Player p3x3_Box p3x4_Free -> p3x2_Free p3x3_Player p3x4_Box
+tr move_player_p3x3_to_p2x3 p3x3_Player p2x3_Free -> p3x3_Free p2x3_Player
+tr move_player_p3x3_to_p4x3 p3x3_Player p4x3_Free -> p3x3_Free p4x3_Player
+tr move_player_p3x3_to_p3x2 p3x3_Player p3x2_Free -> p3x3_Free p3x2_Player
+tr move_player_p3x3_to_p3x4 p3x3_Player p3x4_Free -> p3x3_Free p3x4_Player
+tr move_box_p2x3_to_p1x3 p3x3_Player p2x3_Box p1x3_Free -> p3x3_Free p2x3_Player p1x3_Box
+tr move_box_p4x3_to_p5x3 p3x3_Player p4x3_Box p5x3_Free -> p3x3_Free p4x3_Player p5x3_Box
+tr move_box_p3x2_to_p3x1 p3x3_Player p3x2_Box p3x1_Free -> p3x3_Free p3x2_Player p3x1_Box
+tr move_box_p3x4_to_p3x5 p3x3_Player p3x4_Box p3x5_Free -> p3x3_Free p3x4_Player p3x5_Box
+tr move_player_p3x4_to_p2x4 p3x4_Player p2x4_Free -> p3x4_Free p2x4_Player
+tr move_player_p3x4_to_p4x4 p3x4_Player p4x4_Free -> p3x4_Free p4x4_Player
+tr move_player_p3x4_to_p3x3 p3x4_Player p3x3_Free -> p3x4_Free p3x3_Player
+tr move_player_p3x4_to_p3x5 p3x4_Player p3x5_Free -> p3x4_Free p3x5_Player
+tr move_box_p2x4_to_p1x4 p3x4_Player p2x4_Box p1x4_Free -> p3x4_Free p2x4_Player p1x4_Box
+tr move_box_p4x4_to_p5x4 p3x4_Player p4x4_Box p5x4_Free -> p3x4_Free p4x4_Player p5x4_Box
+tr move_box_p3x3_to_p3x2 p3x4_Player p3x3_Box p3x2_Free -> p3x4_Free p3x3_Player p3x2_Box
+tr move_box_p3x5_to_p3x6 p3x4_Player p3x5_Box p3x6_Free -> p3x4_Free p3x5_Player p3x6_Box
+tr move_player_p3x5_to_p2x5 p3x5_Player p2x5_Free -> p3x5_Free p2x5_Player
+tr move_player_p3x5_to_p4x5 p3x5_Player p4x5_Free -> p3x5_Free p4x5_Player
+tr move_player_p3x5_to_p3x4 p3x5_Player p3x4_Free -> p3x5_Free p3x4_Player
+tr move_player_p3x5_to_p3x6 p3x5_Player p3x6_Free -> p3x5_Free p3x6_Player
+tr move_box_p2x5_to_p1x5 p3x5_Player p2x5_Box p1x5_Free -> p3x5_Free p2x5_Player p1x5_Box
+tr move_box_p4x5_to_p5x5 p3x5_Player p4x5_Box p5x5_Free -> p3x5_Free p4x5_Player p5x5_Box
+tr move_box_p3x4_to_p3x3 p3x5_Player p3x4_Box p3x3_Free -> p3x5_Free p3x4_Player p3x3_Box
+tr move_box_p3x6_to_p3x7 p3x5_Player p3x6_Box p3x7_Free -> p3x5_Free p3x6_Player p3x7_Box
+tr move_player_p3x6_to_p2x6 p3x6_Player p2x6_Free -> p3x6_Free p2x6_Player
+tr move_player_p3x6_to_p4x6 p3x6_Player p4x6_Free -> p3x6_Free p4x6_Player
+tr move_player_p3x6_to_p3x5 p3x6_Player p3x5_Free -> p3x6_Free p3x5_Player
+tr move_player_p3x6_to_p3x7 p3x6_Player p3x7_Free -> p3x6_Free p3x7_Player
+tr move_box_p2x6_to_p1x6 p3x6_Player p2x6_Box p1x6_Free -> p3x6_Free p2x6_Player p1x6_Box
+tr move_box_p4x6_to_p5x6 p3x6_Player p4x6_Box p5x6_Free -> p3x6_Free p4x6_Player p5x6_Box
+tr move_box_p3x5_to_p3x4 p3x6_Player p3x5_Box p3x4_Free -> p3x6_Free p3x5_Player p3x4_Box
+tr move_box_p3x7_to_p3x8 p3x6_Player p3x7_Box p3x8_Free -> p3x6_Free p3x7_Player p3x8_Box
+tr move_player_p3x7_to_p2x7 p3x7_Player p2x7_Free -> p3x7_Free p2x7_Player
+tr move_player_p3x7_to_p4x7 p3x7_Player p4x7_Free -> p3x7_Free p4x7_Player
+tr move_player_p3x7_to_p3x6 p3x7_Player p3x6_Free -> p3x7_Free p3x6_Player
+tr move_player_p3x7_to_p3x8 p3x7_Player p3x8_Free -> p3x7_Free p3x8_Player
+tr move_box_p2x7_to_p1x7 p3x7_Player p2x7_Box p1x7_Free -> p3x7_Free p2x7_Player p1x7_Box
+tr move_box_p4x7_to_p5x7 p3x7_Player p4x7_Box p5x7_Free -> p3x7_Free p4x7_Player p5x7_Box
+tr move_box_p3x6_to_p3x5 p3x7_Player p3x6_Box p3x5_Free -> p3x7_Free p3x6_Player p3x5_Box
+tr move_player_p4x0_to_p3x0 p4x0_Player p3x0_Free -> p4x0_Free p3x0_Player
+tr move_player_p4x0_to_p5x0 p4x0_Player p5x0_Free -> p4x0_Free p5x0_Player
+tr move_player_p4x0_to_p4x1 p4x0_Player p4x1_Free -> p4x0_Free p4x1_Player
+tr move_box_p3x0_to_p2x0 p4x0_Player p3x0_Box p2x0_Free -> p4x0_Free p3x0_Player p2x0_Box
+tr move_box_p5x0_to_p6x0 p4x0_Player p5x0_Box p6x0_Free -> p4x0_Free p5x0_Player p6x0_Box
+tr move_box_p4x1_to_p4x2 p4x0_Player p4x1_Box p4x2_Free -> p4x0_Free p4x1_Player p4x2_Box
+tr move_player_p4x1_to_p3x1 p4x1_Player p3x1_Free -> p4x1_Free p3x1_Player
+tr move_player_p4x1_to_p5x1 p4x1_Player p5x1_Free -> p4x1_Free p5x1_Player
+tr move_player_p4x1_to_p4x0 p4x1_Player p4x0_Free -> p4x1_Free p4x0_Player
+tr move_player_p4x1_to_p4x2 p4x1_Player p4x2_Free -> p4x1_Free p4x2_Player
+tr move_box_p3x1_to_p2x1 p4x1_Player p3x1_Box p2x1_Free -> p4x1_Free p3x1_Player p2x1_Box
+tr move_box_p5x1_to_p6x1 p4x1_Player p5x1_Box p6x1_Free -> p4x1_Free p5x1_Player p6x1_Box
+tr move_box_p4x2_to_p4x3 p4x1_Player p4x2_Box p4x3_Free -> p4x1_Free p4x2_Player p4x3_Box
+tr move_player_p4x2_to_p3x2 p4x2_Player p3x2_Free -> p4x2_Free p3x2_Player
+tr move_player_p4x2_to_p5x2 p4x2_Player p5x2_Free -> p4x2_Free p5x2_Player
+tr move_player_p4x2_to_p4x1 p4x2_Player p4x1_Free -> p4x2_Free p4x1_Player
+tr move_player_p4x2_to_p4x3 p4x2_Player p4x3_Free -> p4x2_Free p4x3_Player
+tr move_box_p3x2_to_p2x2 p4x2_Player p3x2_Box p2x2_Free -> p4x2_Free p3x2_Player p2x2_Box
+tr move_box_p5x2_to_p6x2 p4x2_Player p5x2_Box p6x2_Free -> p4x2_Free p5x2_Player p6x2_Box
+tr move_box_p4x1_to_p4x0 p4x2_Player p4x1_Box p4x0_Free -> p4x2_Free p4x1_Player p4x0_Box
+tr move_box_p4x3_to_p4x4 p4x2_Player p4x3_Box p4x4_Free -> p4x2_Free p4x3_Player p4x4_Box
+tr move_player_p4x3_to_p3x3 p4x3_Player p3x3_Free -> p4x3_Free p3x3_Player
+tr move_player_p4x3_to_p5x3 p4x3_Player p5x3_Free -> p4x3_Free p5x3_Player
+tr move_player_p4x3_to_p4x2 p4x3_Player p4x2_Free -> p4x3_Free p4x2_Player
+tr move_player_p4x3_to_p4x4 p4x3_Player p4x4_Free -> p4x3_Free p4x4_Player
+tr move_box_p3x3_to_p2x3 p4x3_Player p3x3_Box p2x3_Free -> p4x3_Free p3x3_Player p2x3_Box
+tr move_box_p5x3_to_p6x3 p4x3_Player p5x3_Box p6x3_Free -> p4x3_Free p5x3_Player p6x3_Box
+tr move_box_p4x2_to_p4x1 p4x3_Player p4x2_Box p4x1_Free -> p4x3_Free p4x2_Player p4x1_Box
+tr move_box_p4x4_to_p4x5 p4x3_Player p4x4_Box p4x5_Free -> p4x3_Free p4x4_Player p4x5_Box
+tr move_player_p4x4_to_p3x4 p4x4_Player p3x4_Free -> p4x4_Free p3x4_Player
+tr move_player_p4x4_to_p5x4 p4x4_Player p5x4_Free -> p4x4_Free p5x4_Player
+tr move_player_p4x4_to_p4x3 p4x4_Player p4x3_Free -> p4x4_Free p4x3_Player
+tr move_player_p4x4_to_p4x5 p4x4_Player p4x5_Free -> p4x4_Free p4x5_Player
+tr move_box_p3x4_to_p2x4 p4x4_Player p3x4_Box p2x4_Free -> p4x4_Free p3x4_Player p2x4_Box
+tr move_box_p5x4_to_p6x4 p4x4_Player p5x4_Box p6x4_Free -> p4x4_Free p5x4_Player p6x4_Box
+tr move_box_p4x3_to_p4x2 p4x4_Player p4x3_Box p4x2_Free -> p4x4_Free p4x3_Player p4x2_Box
+tr move_box_p4x5_to_p4x6 p4x4_Player p4x5_Box p4x6_Free -> p4x4_Free p4x5_Player p4x6_Box
+tr move_player_p4x5_to_p3x5 p4x5_Player p3x5_Free -> p4x5_Free p3x5_Player
+tr move_player_p4x5_to_p5x5 p4x5_Player p5x5_Free -> p4x5_Free p5x5_Player
+tr move_player_p4x5_to_p4x4 p4x5_Player p4x4_Free -> p4x5_Free p4x4_Player
+tr move_player_p4x5_to_p4x6 p4x5_Player p4x6_Free -> p4x5_Free p4x6_Player
+tr move_box_p3x5_to_p2x5 p4x5_Player p3x5_Box p2x5_Free -> p4x5_Free p3x5_Player p2x5_Box
+tr move_box_p5x5_to_p6x5 p4x5_Player p5x5_Box p6x5_Free -> p4x5_Free p5x5_Player p6x5_Box
+tr move_box_p4x4_to_p4x3 p4x5_Player p4x4_Box p4x3_Free -> p4x5_Free p4x4_Player p4x3_Box
+tr move_box_p4x6_to_p4x7 p4x5_Player p4x6_Box p4x7_Free -> p4x5_Free p4x6_Player p4x7_Box
+tr move_player_p4x6_to_p3x6 p4x6_Player p3x6_Free -> p4x6_Free p3x6_Player
+tr move_player_p4x6_to_p5x6 p4x6_Player p5x6_Free -> p4x6_Free p5x6_Player
+tr move_player_p4x6_to_p4x5 p4x6_Player p4x5_Free -> p4x6_Free p4x5_Player
+tr move_player_p4x6_to_p4x7 p4x6_Player p4x7_Free -> p4x6_Free p4x7_Player
+tr move_box_p3x6_to_p2x6 p4x6_Player p3x6_Box p2x6_Free -> p4x6_Free p3x6_Player p2x6_Box
+tr move_box_p5x6_to_p6x6 p4x6_Player p5x6_Box p6x6_Free -> p4x6_Free p5x6_Player p6x6_Box
+tr move_box_p4x5_to_p4x4 p4x6_Player p4x5_Box p4x4_Free -> p4x6_Free p4x5_Player p4x4_Box
+tr move_box_p4x7_to_p4x8 p4x6_Player p4x7_Box p4x8_Free -> p4x6_Free p4x7_Player p4x8_Box
+tr move_player_p4x7_to_p3x7 p4x7_Player p3x7_Free -> p4x7_Free p3x7_Player
+tr move_player_p4x7_to_p5x7 p4x7_Player p5x7_Free -> p4x7_Free p5x7_Player
+tr move_player_p4x7_to_p4x6 p4x7_Player p4x6_Free -> p4x7_Free p4x6_Player
+tr move_player_p4x7_to_p4x8 p4x7_Player p4x8_Free -> p4x7_Free p4x8_Player
+tr move_box_p3x7_to_p2x7 p4x7_Player p3x7_Box p2x7_Free -> p4x7_Free p3x7_Player p2x7_Box
+tr move_box_p5x7_to_p6x7 p4x7_Player p5x7_Box p6x7_Free -> p4x7_Free p5x7_Player p6x7_Box
+tr move_box_p4x6_to_p4x5 p4x7_Player p4x6_Box p4x5_Free -> p4x7_Free p4x6_Player p4x5_Box
+tr move_player_p5x0_to_p4x0 p5x0_Player p4x0_Free -> p5x0_Free p4x0_Player
+tr move_player_p5x0_to_p6x0 p5x0_Player p6x0_Free -> p5x0_Free p6x0_Player
+tr move_player_p5x0_to_p5x1 p5x0_Player p5x1_Free -> p5x0_Free p5x1_Player
+tr move_box_p4x0_to_p3x0 p5x0_Player p4x0_Box p3x0_Free -> p5x0_Free p4x0_Player p3x0_Box
+tr move_box_p6x0_to_p7x0 p5x0_Player p6x0_Box p7x0_Free -> p5x0_Free p6x0_Player p7x0_Box
+tr move_box_p5x1_to_p5x2 p5x0_Player p5x1_Box p5x2_Free -> p5x0_Free p5x1_Player p5x2_Box
+tr move_player_p5x1_to_p4x1 p5x1_Player p4x1_Free -> p5x1_Free p4x1_Player
+tr move_player_p5x1_to_p6x1 p5x1_Player p6x1_Free -> p5x1_Free p6x1_Player
+tr move_player_p5x1_to_p5x0 p5x1_Player p5x0_Free -> p5x1_Free p5x0_Player
+tr move_player_p5x1_to_p5x2 p5x1_Player p5x2_Free -> p5x1_Free p5x2_Player
+tr move_box_p4x1_to_p3x1 p5x1_Player p4x1_Box p3x1_Free -> p5x1_Free p4x1_Player p3x1_Box
+tr move_box_p6x1_to_p7x1 p5x1_Player p6x1_Box p7x1_Free -> p5x1_Free p6x1_Player p7x1_Box
+tr move_box_p5x2_to_p5x3 p5x1_Player p5x2_Box p5x3_Free -> p5x1_Free p5x2_Player p5x3_Box
+tr move_player_p5x2_to_p4x2 p5x2_Player p4x2_Free -> p5x2_Free p4x2_Player
+tr move_player_p5x2_to_p6x2 p5x2_Player p6x2_Free -> p5x2_Free p6x2_Player
+tr move_player_p5x2_to_p5x1 p5x2_Player p5x1_Free -> p5x2_Free p5x1_Player
+tr move_player_p5x2_to_p5x3 p5x2_Player p5x3_Free -> p5x2_Free p5x3_Player
+tr move_box_p4x2_to_p3x2 p5x2_Player p4x2_Box p3x2_Free -> p5x2_Free p4x2_Player p3x2_Box
+tr move_box_p6x2_to_p7x2 p5x2_Player p6x2_Box p7x2_Free -> p5x2_Free p6x2_Player p7x2_Box
+tr move_box_p5x1_to_p5x0 p5x2_Player p5x1_Box p5x0_Free -> p5x2_Free p5x1_Player p5x0_Box
+tr move_box_p5x3_to_p5x4 p5x2_Player p5x3_Box p5x4_Free -> p5x2_Free p5x3_Player p5x4_Box
+tr move_player_p5x3_to_p4x3 p5x3_Player p4x3_Free -> p5x3_Free p4x3_Player
+tr move_player_p5x3_to_p6x3 p5x3_Player p6x3_Free -> p5x3_Free p6x3_Player
+tr move_player_p5x3_to_p5x2 p5x3_Player p5x2_Free -> p5x3_Free p5x2_Player
+tr move_player_p5x3_to_p5x4 p5x3_Player p5x4_Free -> p5x3_Free p5x4_Player
+tr move_box_p4x3_to_p3x3 p5x3_Player p4x3_Box p3x3_Free -> p5x3_Free p4x3_Player p3x3_Box
+tr move_box_p6x3_to_p7x3 p5x3_Player p6x3_Box p7x3_Free -> p5x3_Free p6x3_Player p7x3_Box
+tr move_box_p5x2_to_p5x1 p5x3_Player p5x2_Box p5x1_Free -> p5x3_Free p5x2_Player p5x1_Box
+tr move_box_p5x4_to_p5x5 p5x3_Player p5x4_Box p5x5_Free -> p5x3_Free p5x4_Player p5x5_Box
+tr move_player_p5x4_to_p4x4 p5x4_Player p4x4_Free -> p5x4_Free p4x4_Player
+tr move_player_p5x4_to_p6x4 p5x4_Player p6x4_Free -> p5x4_Free p6x4_Player
+tr move_player_p5x4_to_p5x3 p5x4_Player p5x3_Free -> p5x4_Free p5x3_Player
+tr move_player_p5x4_to_p5x5 p5x4_Player p5x5_Free -> p5x4_Free p5x5_Player
+tr move_box_p4x4_to_p3x4 p5x4_Player p4x4_Box p3x4_Free -> p5x4_Free p4x4_Player p3x4_Box
+tr move_box_p6x4_to_p7x4 p5x4_Player p6x4_Box p7x4_Free -> p5x4_Free p6x4_Player p7x4_Box
+tr move_box_p5x3_to_p5x2 p5x4_Player p5x3_Box p5x2_Free -> p5x4_Free p5x3_Player p5x2_Box
+tr move_box_p5x5_to_p5x6 p5x4_Player p5x5_Box p5x6_Free -> p5x4_Free p5x5_Player p5x6_Box
+tr move_player_p5x5_to_p4x5 p5x5_Player p4x5_Free -> p5x5_Free p4x5_Player
+tr move_player_p5x5_to_p6x5 p5x5_Player p6x5_Free -> p5x5_Free p6x5_Player
+tr move_player_p5x5_to_p5x4 p5x5_Player p5x4_Free -> p5x5_Free p5x4_Player
+tr move_player_p5x5_to_p5x6 p5x5_Player p5x6_Free -> p5x5_Free p5x6_Player
+tr move_box_p4x5_to_p3x5 p5x5_Player p4x5_Box p3x5_Free -> p5x5_Free p4x5_Player p3x5_Box
+tr move_box_p6x5_to_p7x5 p5x5_Player p6x5_Box p7x5_Free -> p5x5_Free p6x5_Player p7x5_Box
+tr move_box_p5x4_to_p5x3 p5x5_Player p5x4_Box p5x3_Free -> p5x5_Free p5x4_Player p5x3_Box
+tr move_box_p5x6_to_p5x7 p5x5_Player p5x6_Box p5x7_Free -> p5x5_Free p5x6_Player p5x7_Box
+tr move_player_p5x6_to_p4x6 p5x6_Player p4x6_Free -> p5x6_Free p4x6_Player
+tr move_player_p5x6_to_p6x6 p5x6_Player p6x6_Free -> p5x6_Free p6x6_Player
+tr move_player_p5x6_to_p5x5 p5x6_Player p5x5_Free -> p5x6_Free p5x5_Player
+tr move_player_p5x6_to_p5x7 p5x6_Player p5x7_Free -> p5x6_Free p5x7_Player
+tr move_box_p4x6_to_p3x6 p5x6_Player p4x6_Box p3x6_Free -> p5x6_Free p4x6_Player p3x6_Box
+tr move_box_p6x6_to_p7x6 p5x6_Player p6x6_Box p7x6_Free -> p5x6_Free p6x6_Player p7x6_Box
+tr move_box_p5x5_to_p5x4 p5x6_Player p5x5_Box p5x4_Free -> p5x6_Free p5x5_Player p5x4_Box
+tr move_box_p5x7_to_p5x8 p5x6_Player p5x7_Box p5x8_Free -> p5x6_Free p5x7_Player p5x8_Box
+tr move_player_p5x7_to_p4x7 p5x7_Player p4x7_Free -> p5x7_Free p4x7_Player
+tr move_player_p5x7_to_p6x7 p5x7_Player p6x7_Free -> p5x7_Free p6x7_Player
+tr move_player_p5x7_to_p5x6 p5x7_Player p5x6_Free -> p5x7_Free p5x6_Player
+tr move_player_p5x7_to_p5x8 p5x7_Player p5x8_Free -> p5x7_Free p5x8_Player
+tr move_box_p4x7_to_p3x7 p5x7_Player p4x7_Box p3x7_Free -> p5x7_Free p4x7_Player p3x7_Box
+tr move_box_p6x7_to_p7x7 p5x7_Player p6x7_Box p7x7_Free -> p5x7_Free p6x7_Player p7x7_Box
+tr move_box_p5x6_to_p5x5 p5x7_Player p5x6_Box p5x5_Free -> p5x7_Free p5x6_Player p5x5_Box
+tr move_player_p6x0_to_p5x0 p6x0_Player p5x0_Free -> p6x0_Free p5x0_Player
+tr move_player_p6x0_to_p7x0 p6x0_Player p7x0_Free -> p6x0_Free p7x0_Player
+tr move_player_p6x0_to_p6x1 p6x0_Player p6x1_Free -> p6x0_Free p6x1_Player
+tr move_box_p5x0_to_p4x0 p6x0_Player p5x0_Box p4x0_Free -> p6x0_Free p5x0_Player p4x0_Box
+tr move_box_p7x0_to_p8x0 p6x0_Player p7x0_Box p8x0_Free -> p6x0_Free p7x0_Player p8x0_Box
+tr move_box_p6x1_to_p6x2 p6x0_Player p6x1_Box p6x2_Free -> p6x0_Free p6x1_Player p6x2_Box
+tr move_player_p6x1_to_p5x1 p6x1_Player p5x1_Free -> p6x1_Free p5x1_Player
+tr move_player_p6x1_to_p7x1 p6x1_Player p7x1_Free -> p6x1_Free p7x1_Player
+tr move_player_p6x1_to_p6x0 p6x1_Player p6x0_Free -> p6x1_Free p6x0_Player
+tr move_player_p6x1_to_p6x2 p6x1_Player p6x2_Free -> p6x1_Free p6x2_Player
+tr move_box_p5x1_to_p4x1 p6x1_Player p5x1_Box p4x1_Free -> p6x1_Free p5x1_Player p4x1_Box
+tr move_box_p7x1_to_p8x1 p6x1_Player p7x1_Box p8x1_Free -> p6x1_Free p7x1_Player p8x1_Box
+tr move_box_p6x2_to_p6x3 p6x1_Player p6x2_Box p6x3_Free -> p6x1_Free p6x2_Player p6x3_Box
+tr move_player_p6x2_to_p5x2 p6x2_Player p5x2_Free -> p6x2_Free p5x2_Player
+tr move_player_p6x2_to_p7x2 p6x2_Player p7x2_Free -> p6x2_Free p7x2_Player
+tr move_player_p6x2_to_p6x1 p6x2_Player p6x1_Free -> p6x2_Free p6x1_Player
+tr move_player_p6x2_to_p6x3 p6x2_Player p6x3_Free -> p6x2_Free p6x3_Player
+tr move_box_p5x2_to_p4x2 p6x2_Player p5x2_Box p4x2_Free -> p6x2_Free p5x2_Player p4x2_Box
+tr move_box_p7x2_to_p8x2 p6x2_Player p7x2_Box p8x2_Free -> p6x2_Free p7x2_Player p8x2_Box
+tr move_box_p6x1_to_p6x0 p6x2_Player p6x1_Box p6x0_Free -> p6x2_Free p6x1_Player p6x0_Box
+tr move_box_p6x3_to_p6x4 p6x2_Player p6x3_Box p6x4_Free -> p6x2_Free p6x3_Player p6x4_Box
+tr move_player_p6x3_to_p5x3 p6x3_Player p5x3_Free -> p6x3_Free p5x3_Player
+tr move_player_p6x3_to_p7x3 p6x3_Player p7x3_Free -> p6x3_Free p7x3_Player
+tr move_player_p6x3_to_p6x2 p6x3_Player p6x2_Free -> p6x3_Free p6x2_Player
+tr move_player_p6x3_to_p6x4 p6x3_Player p6x4_Free -> p6x3_Free p6x4_Player
+tr move_box_p5x3_to_p4x3 p6x3_Player p5x3_Box p4x3_Free -> p6x3_Free p5x3_Player p4x3_Box
+tr move_box_p7x3_to_p8x3 p6x3_Player p7x3_Box p8x3_Free -> p6x3_Free p7x3_Player p8x3_Box
+tr move_box_p6x2_to_p6x1 p6x3_Player p6x2_Box p6x1_Free -> p6x3_Free p6x2_Player p6x1_Box
+tr move_box_p6x4_to_p6x5 p6x3_Player p6x4_Box p6x5_Free -> p6x3_Free p6x4_Player p6x5_Box
+tr move_player_p6x4_to_p5x4 p6x4_Player p5x4_Free -> p6x4_Free p5x4_Player
+tr move_player_p6x4_to_p7x4 p6x4_Player p7x4_Free -> p6x4_Free p7x4_Player
+tr move_player_p6x4_to_p6x3 p6x4_Player p6x3_Free -> p6x4_Free p6x3_Player
+tr move_player_p6x4_to_p6x5 p6x4_Player p6x5_Free -> p6x4_Free p6x5_Player
+tr move_box_p5x4_to_p4x4 p6x4_Player p5x4_Box p4x4_Free -> p6x4_Free p5x4_Player p4x4_Box
+tr move_box_p7x4_to_p8x4 p6x4_Player p7x4_Box p8x4_Free -> p6x4_Free p7x4_Player p8x4_Box
+tr move_box_p6x3_to_p6x2 p6x4_Player p6x3_Box p6x2_Free -> p6x4_Free p6x3_Player p6x2_Box
+tr move_box_p6x5_to_p6x6 p6x4_Player p6x5_Box p6x6_Free -> p6x4_Free p6x5_Player p6x6_Box
+tr move_player_p6x5_to_p5x5 p6x5_Player p5x5_Free -> p6x5_Free p5x5_Player
+tr move_player_p6x5_to_p7x5 p6x5_Player p7x5_Free -> p6x5_Free p7x5_Player
+tr move_player_p6x5_to_p6x4 p6x5_Player p6x4_Free -> p6x5_Free p6x4_Player
+tr move_player_p6x5_to_p6x6 p6x5_Player p6x6_Free -> p6x5_Free p6x6_Player
+tr move_box_p5x5_to_p4x5 p6x5_Player p5x5_Box p4x5_Free -> p6x5_Free p5x5_Player p4x5_Box
+tr move_box_p7x5_to_p8x5 p6x5_Player p7x5_Box p8x5_Free -> p6x5_Free p7x5_Player p8x5_Box
+tr move_box_p6x4_to_p6x3 p6x5_Player p6x4_Box p6x3_Free -> p6x5_Free p6x4_Player p6x3_Box
+tr move_box_p6x6_to_p6x7 p6x5_Player p6x6_Box p6x7_Free -> p6x5_Free p6x6_Player p6x7_Box
+tr move_player_p6x6_to_p5x6 p6x6_Player p5x6_Free -> p6x6_Free p5x6_Player
+tr move_player_p6x6_to_p7x6 p6x6_Player p7x6_Free -> p6x6_Free p7x6_Player
+tr move_player_p6x6_to_p6x5 p6x6_Player p6x5_Free -> p6x6_Free p6x5_Player
+tr move_player_p6x6_to_p6x7 p6x6_Player p6x7_Free -> p6x6_Free p6x7_Player
+tr move_box_p5x6_to_p4x6 p6x6_Player p5x6_Box p4x6_Free -> p6x6_Free p5x6_Player p4x6_Box
+tr move_box_p7x6_to_p8x6 p6x6_Player p7x6_Box p8x6_Free -> p6x6_Free p7x6_Player p8x6_Box
+tr move_box_p6x5_to_p6x4 p6x6_Player p6x5_Box p6x4_Free -> p6x6_Free p6x5_Player p6x4_Box
+tr move_box_p6x7_to_p6x8 p6x6_Player p6x7_Box p6x8_Free -> p6x6_Free p6x7_Player p6x8_Box
+tr move_player_p6x7_to_p5x7 p6x7_Player p5x7_Free -> p6x7_Free p5x7_Player
+tr move_player_p6x7_to_p7x7 p6x7_Player p7x7_Free -> p6x7_Free p7x7_Player
+tr move_player_p6x7_to_p6x6 p6x7_Player p6x6_Free -> p6x7_Free p6x6_Player
+tr move_player_p6x7_to_p6x8 p6x7_Player p6x8_Free -> p6x7_Free p6x8_Player
+tr move_box_p5x7_to_p4x7 p6x7_Player p5x7_Box p4x7_Free -> p6x7_Free p5x7_Player p4x7_Box
+tr move_box_p7x7_to_p8x7 p6x7_Player p7x7_Box p8x7_Free -> p6x7_Free p7x7_Player p8x7_Box
+tr move_box_p6x6_to_p6x5 p6x7_Player p6x6_Box p6x5_Free -> p6x7_Free p6x6_Player p6x5_Box
+tr move_player_p7x0_to_p6x0 p7x0_Player p6x0_Free -> p7x0_Free p6x0_Player
+tr move_player_p7x0_to_p8x0 p7x0_Player p8x0_Free -> p7x0_Free p8x0_Player
+tr move_player_p7x0_to_p7x1 p7x0_Player p7x1_Free -> p7x0_Free p7x1_Player
+tr move_box_p6x0_to_p5x0 p7x0_Player p6x0_Box p5x0_Free -> p7x0_Free p6x0_Player p5x0_Box
+tr move_box_p7x1_to_p7x2 p7x0_Player p7x1_Box p7x2_Free -> p7x0_Free p7x1_Player p7x2_Box
+tr move_player_p7x1_to_p6x1 p7x1_Player p6x1_Free -> p7x1_Free p6x1_Player
+tr move_player_p7x1_to_p8x1 p7x1_Player p8x1_Free -> p7x1_Free p8x1_Player
+tr move_player_p7x1_to_p7x0 p7x1_Player p7x0_Free -> p7x1_Free p7x0_Player
+tr move_player_p7x1_to_p7x2 p7x1_Player p7x2_Free -> p7x1_Free p7x2_Player
+tr move_box_p6x1_to_p5x1 p7x1_Player p6x1_Box p5x1_Free -> p7x1_Free p6x1_Player p5x1_Box
+tr move_box_p7x2_to_p7x3 p7x1_Player p7x2_Box p7x3_Free -> p7x1_Free p7x2_Player p7x3_Box
+tr move_player_p7x2_to_p6x2 p7x2_Player p6x2_Free -> p7x2_Free p6x2_Player
+tr move_player_p7x2_to_p8x2 p7x2_Player p8x2_Free -> p7x2_Free p8x2_Player
+tr move_player_p7x2_to_p7x1 p7x2_Player p7x1_Free -> p7x2_Free p7x1_Player
+tr move_player_p7x2_to_p7x3 p7x2_Player p7x3_Free -> p7x2_Free p7x3_Player
+tr move_box_p6x2_to_p5x2 p7x2_Player p6x2_Box p5x2_Free -> p7x2_Free p6x2_Player p5x2_Box
+tr move_box_p7x1_to_p7x0 p7x2_Player p7x1_Box p7x0_Free -> p7x2_Free p7x1_Player p7x0_Box
+tr move_box_p7x3_to_p7x4 p7x2_Player p7x3_Box p7x4_Free -> p7x2_Free p7x3_Player p7x4_Box
+tr move_player_p7x3_to_p6x3 p7x3_Player p6x3_Free -> p7x3_Free p6x3_Player
+tr move_player_p7x3_to_p8x3 p7x3_Player p8x3_Free -> p7x3_Free p8x3_Player
+tr move_player_p7x3_to_p7x2 p7x3_Player p7x2_Free -> p7x3_Free p7x2_Player
+tr move_player_p7x3_to_p7x4 p7x3_Player p7x4_Free -> p7x3_Free p7x4_Player
+tr move_box_p6x3_to_p5x3 p7x3_Player p6x3_Box p5x3_Free -> p7x3_Free p6x3_Player p5x3_Box
+tr move_box_p7x2_to_p7x1 p7x3_Player p7x2_Box p7x1_Free -> p7x3_Free p7x2_Player p7x1_Box
+tr move_box_p7x4_to_p7x5 p7x3_Player p7x4_Box p7x5_Free -> p7x3_Free p7x4_Player p7x5_Box
+tr move_player_p7x4_to_p6x4 p7x4_Player p6x4_Free -> p7x4_Free p6x4_Player
+tr move_player_p7x4_to_p8x4 p7x4_Player p8x4_Free -> p7x4_Free p8x4_Player
+tr move_player_p7x4_to_p7x3 p7x4_Player p7x3_Free -> p7x4_Free p7x3_Player
+tr move_player_p7x4_to_p7x5 p7x4_Player p7x5_Free -> p7x4_Free p7x5_Player
+tr move_box_p6x4_to_p5x4 p7x4_Player p6x4_Box p5x4_Free -> p7x4_Free p6x4_Player p5x4_Box
+tr move_box_p7x3_to_p7x2 p7x4_Player p7x3_Box p7x2_Free -> p7x4_Free p7x3_Player p7x2_Box
+tr move_box_p7x5_to_p7x6 p7x4_Player p7x5_Box p7x6_Free -> p7x4_Free p7x5_Player p7x6_Box
+tr move_player_p7x5_to_p6x5 p7x5_Player p6x5_Free -> p7x5_Free p6x5_Player
+tr move_player_p7x5_to_p8x5 p7x5_Player p8x5_Free -> p7x5_Free p8x5_Player
+tr move_player_p7x5_to_p7x4 p7x5_Player p7x4_Free -> p7x5_Free p7x4_Player
+tr move_player_p7x5_to_p7x6 p7x5_Player p7x6_Free -> p7x5_Free p7x6_Player
+tr move_box_p6x5_to_p5x5 p7x5_Player p6x5_Box p5x5_Free -> p7x5_Free p6x5_Player p5x5_Box
+tr move_box_p7x4_to_p7x3 p7x5_Player p7x4_Box p7x3_Free -> p7x5_Free p7x4_Player p7x3_Box
+tr move_box_p7x6_to_p7x7 p7x5_Player p7x6_Box p7x7_Free -> p7x5_Free p7x6_Player p7x7_Box
+tr move_player_p7x6_to_p6x6 p7x6_Player p6x6_Free -> p7x6_Free p6x6_Player
+tr move_player_p7x6_to_p8x6 p7x6_Player p8x6_Free -> p7x6_Free p8x6_Player
+tr move_player_p7x6_to_p7x5 p7x6_Player p7x5_Free -> p7x6_Free p7x5_Player
+tr move_player_p7x6_to_p7x7 p7x6_Player p7x7_Free -> p7x6_Free p7x7_Player
+tr move_box_p6x6_to_p5x6 p7x6_Player p6x6_Box p5x6_Free -> p7x6_Free p6x6_Player p5x6_Box
+tr move_box_p7x5_to_p7x4 p7x6_Player p7x5_Box p7x4_Free -> p7x6_Free p7x5_Player p7x4_Box
+tr move_box_p7x7_to_p7x8 p7x6_Player p7x7_Box p7x8_Free -> p7x6_Free p7x7_Player p7x8_Box
+tr move_player_p7x7_to_p6x7 p7x7_Player p6x7_Free -> p7x7_Free p6x7_Player
+tr move_player_p7x7_to_p8x7 p7x7_Player p8x7_Free -> p7x7_Free p8x7_Player
+tr move_player_p7x7_to_p7x6 p7x7_Player p7x6_Free -> p7x7_Free p7x6_Player
+tr move_player_p7x7_to_p7x8 p7x7_Player p7x8_Free -> p7x7_Free p7x8_Player
+tr move_box_p6x7_to_p5x7 p7x7_Player p6x7_Box p5x7_Free -> p7x7_Free p6x7_Player p5x7_Box
+tr move_box_p7x6_to_p7x5 p7x7_Player p7x6_Box p7x5_Free -> p7x7_Free p7x6_Player p7x5_Box
+tr win_game  p1x3_Box p3x4_Box p5x4_Box p2x4_Box ->  Win_The_Game

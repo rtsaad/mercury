@@ -1,0 +1,23 @@
+net kanban
+pl p2 (6)
+pl p10 (6)
+pl p6 (6)
+pl p14 (6)
+tr t1 [0,w[ p2 -> p0
+tr t4 [0,w[ p0 -> p3
+tr t2 [0,w[ p0 -> p1
+tr t3 [0,w[ p1 -> p0
+tr t5 [0,w[ p10 p6 p3 -> p8 p4 p2
+tr t11 [0,w[ p9 -> p8
+tr t7 [0,w[ p5 -> p4
+tr t10 [0,w[ p8 -> p9
+tr t12 [0,w[ p8 -> p11
+tr t6 [0,w[ p4 -> p5
+tr t8 [0,w[ p4 -> p7
+tr t9 [0,w[ p14 p11 p7 -> p12 p10 p6
+tr t13 [0,w[ p12 -> p13
+tr t14 [0,w[ p13 -> p12
+tr t15 [0,w[ p12 -> p15
+tr t16 [0,w[ p15 -> p14
+
+

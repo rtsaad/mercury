@@ -1,0 +1,110 @@
+net solitaire
+pl p3 (1)
+pl p7 (1)
+pl p6 (1)
+pl p14 (1)
+pl p19 (1)
+pl p8 (1)
+pl p9 (1)
+pl p10 (1)
+pl p13 (1)
+pl p17 (1)
+pl p12 (1)
+pl p28 (1)
+pl p32 (1)
+pl p33 (1)
+pl p11 (1)
+pl p34 (1)
+pl p18 (1)
+pl p40 (1)
+pl p41 (1)
+pl p42 (1)
+pl p36 (1)
+pl p37 (1)
+pl p45 (1)
+pl p46 (1)
+pl p39 (1)
+pl p47 (1)
+pl p29 (1)
+pl p15 (1)
+pl p2 (1)
+pl p1 (1)
+pl p0 (1)
+pl p4 (1)
+tr t6 [0,w[ p4 p0 p7?-1 -> p7
+tr t7 [0,w[ p5 p1 p8?-1 -> p8
+tr t8 [0,w[ p3 p2 p6?-1 -> p6
+tr t10 [0,w[ p1 p2 p0?-1 -> p0
+tr t18 [0,w[ p11 p2 p3?-1 -> p3
+tr t44 [0,w[ p0 p1 p28?-1 -> p28
+tr t15 [0,w[ p8 p6 p7?-1 -> p7
+tr t22 [0,w[ p8 p14 p5?-1 -> p5
+tr t23 [0,w[ p6 p17 p3?-1 -> p3
+tr t21 [0,w[ p7 p13 p4?-1 -> p4
+tr t50 [0,w[ p5 p8 p14?-1 -> p14
+tr t49 [0,w[ p4 p7 p13?-1 -> p13
+tr t51 [0,w[ p3 p6 p17?-1 -> p17
+tr t53 [0,w[ p5 p1 p10?-1 -> p10
+tr t52 [0,w[ p4 p0 p9?-1 -> p9
+tr t34 [0,w[ p6 p8 p19?-1 -> p19
+tr t26 [0,w[ p7 p18 p8?-1 -> p8
+tr t32 [0,w[ p6 p19 p8?-1 -> p8
+tr t46 [0,w[ p19 p15 p29?-1 -> p29
+tr t11 [0,w[ p4 p7 p0?-1 -> p0
+tr t12 [0,w[ p5 p8 p1?-1 -> p1
+tr t13 [0,w[ p3 p6 p2?-1 -> p2
+tr t5 [0,w[ p5 p3 p4?-1 -> p4
+tr t1 [0,w[ p5 p4 p3?-1 -> p3
+tr t2 [0,w[ p12 p4 p5?-1 -> p5
+tr t27 [0,w[ p7 p8 p18?-1 -> p18
+tr t14 [0,w[ p8 p7 p6?-1 -> p6
+tr t4 [0,w[ p3 p15 p5?-1 -> p5
+tr t45 [0,w[ p15 p29 p19?-1 -> p19
+tr t43 [0,w[ p0 p28 p1?-1 -> p1
+tr t47 [0,w[ p2 p29 p1?-1 -> p1
+tr t48 [0,w[ p2 p1 p29?-1 -> p29
+tr t9 [0,w[ p1 p0 p2?-1 -> p2
+tr t0 [0,w[ p4 p5 p12?-1 -> p12
+tr t3 [0,w[ p3 p5 p15?-1 -> p15
+tr t20 [0,w[ p10 p9 p11?-1 -> p11
+tr t19 [0,w[ p11 p10 p9?-1 -> p9
+tr t17 [0,w[ p1 p10 p5?-1 -> p5
+tr t16 [0,w[ p0 p9 p4?-1 -> p4
+tr t55 [0,w[ p33 p32 p34?-1 -> p34
+tr t56 [0,w[ p34 p33 p32?-1 -> p32
+tr t54 [0,w[ p3 p2 p11?-1 -> p11
+tr t57 [0,w[ p11 p34 p2?-1 -> p2
+tr t59 [0,w[ p10 p33 p1?-1 -> p1
+tr t58 [0,w[ p11 p2 p34?-1 -> p34
+tr t60 [0,w[ p10 p1 p33?-1 -> p33
+tr t61 [0,w[ p32 p9 p0?-1 -> p0
+tr t62 [0,w[ p9 p0 p32?-1 -> p32
+tr t41 [0,w[ p12 p28 p18?-1 -> p18
+tr t42 [0,w[ p12 p18 p28?-1 -> p28
+tr t63 [0,w[ p39 p28 p0?-1 -> p0
+tr t65 [0,w[ p39 p36 p37?-1 -> p37
+tr t66 [0,w[ p36 p37 p39?-1 -> p39
+tr t67 [0,w[ p12 p36 p4?-1 -> p4
+tr t68 [0,w[ p18 p37 p7?-1 -> p7
+tr t64 [0,w[ p28 p0 p39?-1 -> p39
+tr t69 [0,w[ p4 p12 p36?-1 -> p36
+tr t70 [0,w[ p7 p18 p37?-1 -> p37
+tr t24 [0,w[ p14 p13 p17?-1 -> p17
+tr t25 [0,w[ p17 p14 p13?-1 -> p13
+tr t76 [0,w[ p7 p13 p40?-1 -> p40
+tr t77 [0,w[ p8 p14 p41?-1 -> p41
+tr t78 [0,w[ p6 p17 p42?-1 -> p42
+tr t73 [0,w[ p13 p40 p7?-1 -> p7
+tr t74 [0,w[ p14 p41 p8?-1 -> p8
+tr t71 [0,w[ p41 p40 p42?-1 -> p42
+tr t72 [0,w[ p42 p41 p40?-1 -> p40
+tr t75 [0,w[ p17 p42 p6?-1 -> p6
+tr t80 [0,w[ p46 p45 p47?-1 -> p47
+tr t81 [0,w[ p46 p47 p45?-1 -> p45
+tr t82 [0,w[ p29 p47 p2?-1 -> p2
+tr t85 [0,w[ p2 p29 p47?-1 -> p47
+tr t83 [0,w[ p15 p46 p3?-1 -> p3
+tr t86 [0,w[ p3 p15 p46?-1 -> p46
+tr t84 [0,w[ p19 p45 p6?-1 -> p6
+tr t87 [0,w[ p6 p19 p45?-1 -> p45
+

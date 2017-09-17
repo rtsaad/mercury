@@ -1,0 +1,62 @@
+net ph_10
+pl f1 (1)
+pl f2 (1)
+pl i1 (1)
+pl f10 (1)
+pl i10 (1)
+pl f3 (1)
+pl i2 (1)
+pl f4 (1)
+pl i3 (1)
+pl f5 (1)
+pl i4 (1)
+pl f6 (1)
+pl i5 (1)
+pl f7 (1)
+pl i6 (1)
+pl f8 (1)
+pl i7 (1)
+pl f9 (1)
+pl i8 (1)
+pl i9 (1)
+tr g1 [0,w[ gl1 gr1 -> f1 f2 i1
+tr g10 [0,w[ gl10 gr10 -> f1 f10 i10
+tr g2 [0,w[ gl2 gr2 -> f2 f3 i2
+tr g3 [0,w[ gl3 gr3 -> f3 f4 i3
+tr g4 [0,w[ gl4 gr4 -> f4 f5 i4
+tr g5 [0,w[ gl5 gr5 -> f5 f6 i5
+tr g6 [0,w[ gl6 gr6 -> f6 f7 i6
+tr g7 [0,w[ gl7 gr7 -> f7 f8 i7
+tr g8 [0,w[ gl8 gr8 -> f8 f9 i8
+tr g9 [0,w[ gl9 gr9 -> f10 f9 i9
+tr h1 [0,w[ i1 -> wl1 wr1
+tr h10 [0,w[ i10 -> wl10 wr10
+tr h2 [0,w[ i2 -> wl2 wr2
+tr h3 [0,w[ i3 -> wl3 wr3
+tr h4 [0,w[ i4 -> wl4 wr4
+tr h5 [0,w[ i5 -> wl5 wr5
+tr h6 [0,w[ i6 -> wl6 wr6
+tr h7 [0,w[ i7 -> wl7 wr7
+tr h8 [0,w[ i8 -> wl8 wr8
+tr h9 [0,w[ i9 -> wl9 wr9
+tr tl1 [0,w[ f1 wl1 -> gl1
+tr tl10 [0,w[ f10 wl10 -> gl10
+tr tl2 [0,w[ f2 wl2 -> gl2
+tr tl3 [0,w[ f3 wl3 -> gl3
+tr tl4 [0,w[ f4 wl4 -> gl4
+tr tl5 [0,w[ f5 wl5 -> gl5
+tr tl6 [0,w[ f6 wl6 -> gl6
+tr tl7 [0,w[ f7 wl7 -> gl7
+tr tl8 [0,w[ f8 wl8 -> gl8
+tr tl9 [0,w[ f9 wl9 -> gl9
+tr tr1 [0,w[ f2 wr1 -> gr1
+tr tr10 [0,w[ f1 wr10 -> gr10
+tr tr2 [0,w[ f3 wr2 -> gr2
+tr tr3 [0,w[ f4 wr3 -> gr3
+tr tr4 [0,w[ f5 wr4 -> gr4
+tr tr5 [0,w[ f6 wr5 -> gr5
+tr tr6 [0,w[ f7 wr6 -> gr6
+tr tr7 [0,w[ f8 wr7 -> gr7
+tr tr8 [0,w[ f9 wr8 -> gr8
+tr tr9 [0,w[ f10 wr9 -> gr9
+

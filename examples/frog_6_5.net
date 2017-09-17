@@ -1,0 +1,235 @@
+net Frogs_and_Toads
+pl Frog_0x0 (1)
+pl Toad_0x0
+pl Frog_0x1 (1)
+pl Toad_0x1
+pl Frog_0x2 (1)
+pl Toad_0x2
+pl Frog_0x3
+pl Toad_0x3 (1)
+pl Frog_0x4
+pl Toad_0x4 (1)
+pl Frog_1x0 (1)
+pl Toad_1x0
+pl Frog_1x1 (1)
+pl Toad_1x1
+pl Frog_1x2 (1)
+pl Toad_1x2
+pl Frog_1x3
+pl Toad_1x3 (1)
+pl Frog_1x4
+pl Toad_1x4 (1)
+pl Frog_2x0 (1)
+pl Toad_2x0
+pl Frog_2x1 (1)
+pl Toad_2x1
+pl Frog_2x2 (1)
+pl Toad_2x2
+pl Frog_2x3
+pl Toad_2x3 (1)
+pl Frog_2x4
+pl Toad_2x4 (1)
+pl Frog_3x0 (1)
+pl Toad_3x0
+pl Frog_3x1 (1)
+pl Toad_3x1
+pl Frog_3x2
+pl Toad_3x2
+pl Frog_3x3
+pl Toad_3x3 (1)
+pl Frog_3x4
+pl Toad_3x4 (1)
+pl Frog_4x0 (1)
+pl Toad_4x0
+pl Frog_4x1 (1)
+pl Toad_4x1
+pl Frog_4x2
+pl Toad_4x2 (1)
+pl Frog_4x3
+pl Toad_4x3 (1)
+pl Frog_4x4
+pl Toad_4x4 (1)
+pl Frog_5x0 (1)
+pl Toad_5x0
+pl Frog_5x1 (1)
+pl Toad_5x1
+pl Frog_5x2
+pl Toad_5x2 (1)
+pl Frog_5x3
+pl Toad_5x3 (1)
+pl Frog_5x4
+pl Toad_5x4 (1)
+tr move_Frog_0x0_0x1 Frog_0x0 Toad_0x1?-1 Frog_0x1?-1 ->  Frog_0x1
+tr move_Frog_0x0_1x0 Frog_0x0 Toad_1x0?-1 Frog_1x0?-1 ->  Frog_1x0
+tr jump_Frog_0x0_0x2 Frog_0x0 Toad_0x1?1 Toad_0x2?-1  Frog_0x2?-1 ->  Frog_0x2
+tr jump_Frog_0x0_2x0 Frog_0x0 Toad_1x0?1 Toad_2x0?-1  Frog_2x0?-1 ->  Frog_2x0
+tr move_Frog_0x1_0x2 Frog_0x1 Toad_0x2?-1 Frog_0x2?-1 ->  Frog_0x2
+tr move_Frog_0x1_1x1 Frog_0x1 Toad_1x1?-1 Frog_1x1?-1 ->  Frog_1x1
+tr jump_Frog_0x1_0x3 Frog_0x1 Toad_0x2?1 Toad_0x3?-1  Frog_0x3?-1 ->  Frog_0x3
+tr jump_Frog_0x1_2x1 Frog_0x1 Toad_1x1?1 Toad_2x1?-1  Frog_2x1?-1 ->  Frog_2x1
+tr move_Toad_0x1_0x0 Toad_0x1 Frog_0x0?-1 Toad_0x0?-1 ->  Toad_0x0
+tr move_Frog_0x2_0x3 Frog_0x2 Toad_0x3?-1 Frog_0x3?-1 ->  Frog_0x3
+tr move_Frog_0x2_1x2 Frog_0x2 Toad_1x2?-1 Frog_1x2?-1 ->  Frog_1x2
+tr jump_Frog_0x2_0x4 Frog_0x2 Toad_0x3?1 Toad_0x4?-1  Frog_0x4?-1 ->  Frog_0x4
+tr jump_Frog_0x2_2x2 Frog_0x2 Toad_1x2?1 Toad_2x2?-1  Frog_2x2?-1 ->  Frog_2x2
+tr move_Toad_0x2_0x1 Toad_0x2 Frog_0x1?-1 Toad_0x1?-1 ->  Toad_0x1
+tr jump_Toad_0x2_0x0 Toad_0x2 Frog_0x1?1 Frog_0x0?-1  Toad_0x0?-1 ->  Toad_0x0
+tr move_Frog_0x3_0x4 Frog_0x3 Toad_0x4?-1 Frog_0x4?-1 ->  Frog_0x4
+tr move_Frog_0x3_1x3 Frog_0x3 Toad_1x3?-1 Frog_1x3?-1 ->  Frog_1x3
+tr jump_Frog_0x3_2x3 Frog_0x3 Toad_1x3?1 Toad_2x3?-1  Frog_2x3?-1 ->  Frog_2x3
+tr move_Toad_0x3_0x2 Toad_0x3 Frog_0x2?-1 Toad_0x2?-1 ->  Toad_0x2
+tr jump_Toad_0x3_0x1 Toad_0x3 Frog_0x2?1 Frog_0x1?-1  Toad_0x1?-1 ->  Toad_0x1
+tr move_Frog_0x4_1x4 Frog_0x4 Toad_1x4?-1 Frog_1x4?-1 ->  Frog_1x4
+tr jump_Frog_0x4_2x4 Frog_0x4 Toad_1x4?1 Toad_2x4?-1  Frog_2x4?-1 ->  Frog_2x4
+tr move_Toad_0x4_0x3 Toad_0x4 Frog_0x3?-1 Toad_0x3?-1 ->  Toad_0x3
+tr jump_Toad_0x4_0x2 Toad_0x4 Frog_0x3?1 Frog_0x2?-1  Toad_0x2?-1 ->  Toad_0x2
+tr move_Frog_1x0_1x1 Frog_1x0 Toad_1x1?-1 Frog_1x1?-1 ->  Frog_1x1
+tr move_Frog_1x0_2x0 Frog_1x0 Toad_2x0?-1 Frog_2x0?-1 ->  Frog_2x0
+tr jump_Frog_1x0_1x2 Frog_1x0 Toad_1x1?1 Toad_1x2?-1  Frog_1x2?-1 ->  Frog_1x2
+tr jump_Frog_1x0_3x0 Frog_1x0 Toad_2x0?1 Toad_3x0?-1  Frog_3x0?-1 ->  Frog_3x0
+tr move_Toad_1x0_0x0 Toad_1x0 Frog_0x0?-1 Toad_0x0?-1 ->  Toad_0x0
+tr move_Frog_1x1_1x2 Frog_1x1 Toad_1x2?-1 Frog_1x2?-1 ->  Frog_1x2
+tr move_Frog_1x1_2x1 Frog_1x1 Toad_2x1?-1 Frog_2x1?-1 ->  Frog_2x1
+tr jump_Frog_1x1_1x3 Frog_1x1 Toad_1x2?1 Toad_1x3?-1  Frog_1x3?-1 ->  Frog_1x3
+tr jump_Frog_1x1_3x1 Frog_1x1 Toad_2x1?1 Toad_3x1?-1  Frog_3x1?-1 ->  Frog_3x1
+tr move_Toad_1x1_1x0 Toad_1x1 Frog_1x0?-1 Toad_1x0?-1 ->  Toad_1x0
+tr move_Toad_1x1_0x1 Toad_1x1 Frog_0x1?-1 Toad_0x1?-1 ->  Toad_0x1
+tr move_Frog_1x2_1x3 Frog_1x2 Toad_1x3?-1 Frog_1x3?-1 ->  Frog_1x3
+tr move_Frog_1x2_2x2 Frog_1x2 Toad_2x2?-1 Frog_2x2?-1 ->  Frog_2x2
+tr jump_Frog_1x2_1x4 Frog_1x2 Toad_1x3?1 Toad_1x4?-1  Frog_1x4?-1 ->  Frog_1x4
+tr jump_Frog_1x2_3x2 Frog_1x2 Toad_2x2?1 Toad_3x2?-1  Frog_3x2?-1 ->  Frog_3x2
+tr move_Toad_1x2_1x1 Toad_1x2 Frog_1x1?-1 Toad_1x1?-1 ->  Toad_1x1
+tr move_Toad_1x2_0x2 Toad_1x2 Frog_0x2?-1 Toad_0x2?-1 ->  Toad_0x2
+tr jump_Toad_1x2_1x0 Toad_1x2 Frog_1x1?1 Frog_1x0?-1  Toad_1x0?-1 ->  Toad_1x0
+tr move_Frog_1x3_1x4 Frog_1x3 Toad_1x4?-1 Frog_1x4?-1 ->  Frog_1x4
+tr move_Frog_1x3_2x3 Frog_1x3 Toad_2x3?-1 Frog_2x3?-1 ->  Frog_2x3
+tr jump_Frog_1x3_3x3 Frog_1x3 Toad_2x3?1 Toad_3x3?-1  Frog_3x3?-1 ->  Frog_3x3
+tr move_Toad_1x3_1x2 Toad_1x3 Frog_1x2?-1 Toad_1x2?-1 ->  Toad_1x2
+tr move_Toad_1x3_0x3 Toad_1x3 Frog_0x3?-1 Toad_0x3?-1 ->  Toad_0x3
+tr jump_Toad_1x3_1x1 Toad_1x3 Frog_1x2?1 Frog_1x1?-1  Toad_1x1?-1 ->  Toad_1x1
+tr move_Frog_1x4_2x4 Frog_1x4 Toad_2x4?-1 Frog_2x4?-1 ->  Frog_2x4
+tr jump_Frog_1x4_3x4 Frog_1x4 Toad_2x4?1 Toad_3x4?-1  Frog_3x4?-1 ->  Frog_3x4
+tr move_Toad_1x4_1x3 Toad_1x4 Frog_1x3?-1 Toad_1x3?-1 ->  Toad_1x3
+tr move_Toad_1x4_0x4 Toad_1x4 Frog_0x4?-1 Toad_0x4?-1 ->  Toad_0x4
+tr jump_Toad_1x4_1x2 Toad_1x4 Frog_1x3?1 Frog_1x2?-1  Toad_1x2?-1 ->  Toad_1x2
+tr move_Frog_2x0_2x1 Frog_2x0 Toad_2x1?-1 Frog_2x1?-1 ->  Frog_2x1
+tr move_Frog_2x0_3x0 Frog_2x0 Toad_3x0?-1 Frog_3x0?-1 ->  Frog_3x0
+tr jump_Frog_2x0_2x2 Frog_2x0 Toad_2x1?1 Toad_2x2?-1  Frog_2x2?-1 ->  Frog_2x2
+tr jump_Frog_2x0_4x0 Frog_2x0 Toad_3x0?1 Toad_4x0?-1  Frog_4x0?-1 ->  Frog_4x0
+tr move_Toad_2x0_1x0 Toad_2x0 Frog_1x0?-1 Toad_1x0?-1 ->  Toad_1x0
+tr jump_Toad_2x0_0x0 Toad_2x0 Frog_1x0?1 Frog_0x0?-1  Toad_0x0?-1 ->  Toad_0x0
+tr move_Frog_2x1_2x2 Frog_2x1 Toad_2x2?-1 Frog_2x2?-1 ->  Frog_2x2
+tr move_Frog_2x1_3x1 Frog_2x1 Toad_3x1?-1 Frog_3x1?-1 ->  Frog_3x1
+tr jump_Frog_2x1_2x3 Frog_2x1 Toad_2x2?1 Toad_2x3?-1  Frog_2x3?-1 ->  Frog_2x3
+tr jump_Frog_2x1_4x1 Frog_2x1 Toad_3x1?1 Toad_4x1?-1  Frog_4x1?-1 ->  Frog_4x1
+tr move_Toad_2x1_2x0 Toad_2x1 Frog_2x0?-1 Toad_2x0?-1 ->  Toad_2x0
+tr move_Toad_2x1_1x1 Toad_2x1 Frog_1x1?-1 Toad_1x1?-1 ->  Toad_1x1
+tr jump_Toad_2x1_0x1 Toad_2x1 Frog_1x1?1 Frog_0x1?-1  Toad_0x1?-1 ->  Toad_0x1
+tr move_Frog_2x2_2x3 Frog_2x2 Toad_2x3?-1 Frog_2x3?-1 ->  Frog_2x3
+tr move_Frog_2x2_3x2 Frog_2x2 Toad_3x2?-1 Frog_3x2?-1 ->  Frog_3x2
+tr jump_Frog_2x2_2x4 Frog_2x2 Toad_2x3?1 Toad_2x4?-1  Frog_2x4?-1 ->  Frog_2x4
+tr jump_Frog_2x2_4x2 Frog_2x2 Toad_3x2?1 Toad_4x2?-1  Frog_4x2?-1 ->  Frog_4x2
+tr move_Toad_2x2_2x1 Toad_2x2 Frog_2x1?-1 Toad_2x1?-1 ->  Toad_2x1
+tr move_Toad_2x2_1x2 Toad_2x2 Frog_1x2?-1 Toad_1x2?-1 ->  Toad_1x2
+tr jump_Toad_2x2_2x0 Toad_2x2 Frog_2x1?1 Frog_2x0?-1  Toad_2x0?-1 ->  Toad_2x0
+tr jump_Toad_2x2_0x2 Toad_2x2 Frog_1x2?1 Frog_0x2?-1  Toad_0x2?-1 ->  Toad_0x2
+tr move_Frog_2x3_2x4 Frog_2x3 Toad_2x4?-1 Frog_2x4?-1 ->  Frog_2x4
+tr move_Frog_2x3_3x3 Frog_2x3 Toad_3x3?-1 Frog_3x3?-1 ->  Frog_3x3
+tr jump_Frog_2x3_4x3 Frog_2x3 Toad_3x3?1 Toad_4x3?-1  Frog_4x3?-1 ->  Frog_4x3
+tr move_Toad_2x3_2x2 Toad_2x3 Frog_2x2?-1 Toad_2x2?-1 ->  Toad_2x2
+tr move_Toad_2x3_1x3 Toad_2x3 Frog_1x3?-1 Toad_1x3?-1 ->  Toad_1x3
+tr jump_Toad_2x3_2x1 Toad_2x3 Frog_2x2?1 Frog_2x1?-1  Toad_2x1?-1 ->  Toad_2x1
+tr jump_Toad_2x3_0x3 Toad_2x3 Frog_1x3?1 Frog_0x3?-1  Toad_0x3?-1 ->  Toad_0x3
+tr move_Frog_2x4_3x4 Frog_2x4 Toad_3x4?-1 Frog_3x4?-1 ->  Frog_3x4
+tr jump_Frog_2x4_4x4 Frog_2x4 Toad_3x4?1 Toad_4x4?-1  Frog_4x4?-1 ->  Frog_4x4
+tr move_Toad_2x4_2x3 Toad_2x4 Frog_2x3?-1 Toad_2x3?-1 ->  Toad_2x3
+tr move_Toad_2x4_1x4 Toad_2x4 Frog_1x4?-1 Toad_1x4?-1 ->  Toad_1x4
+tr jump_Toad_2x4_2x2 Toad_2x4 Frog_2x3?1 Frog_2x2?-1  Toad_2x2?-1 ->  Toad_2x2
+tr jump_Toad_2x4_0x4 Toad_2x4 Frog_1x4?1 Frog_0x4?-1  Toad_0x4?-1 ->  Toad_0x4
+tr move_Frog_3x0_3x1 Frog_3x0 Toad_3x1?-1 Frog_3x1?-1 ->  Frog_3x1
+tr move_Frog_3x0_4x0 Frog_3x0 Toad_4x0?-1 Frog_4x0?-1 ->  Frog_4x0
+tr jump_Frog_3x0_3x2 Frog_3x0 Toad_3x1?1 Toad_3x2?-1  Frog_3x2?-1 ->  Frog_3x2
+tr jump_Frog_3x0_5x0 Frog_3x0 Toad_4x0?1 Toad_5x0?-1  Frog_5x0?-1 ->  Frog_5x0
+tr move_Toad_3x0_2x0 Toad_3x0 Frog_2x0?-1 Toad_2x0?-1 ->  Toad_2x0
+tr jump_Toad_3x0_1x0 Toad_3x0 Frog_2x0?1 Frog_1x0?-1  Toad_1x0?-1 ->  Toad_1x0
+tr move_Frog_3x1_3x2 Frog_3x1 Toad_3x2?-1 Frog_3x2?-1 ->  Frog_3x2
+tr move_Frog_3x1_4x1 Frog_3x1 Toad_4x1?-1 Frog_4x1?-1 ->  Frog_4x1
+tr jump_Frog_3x1_3x3 Frog_3x1 Toad_3x2?1 Toad_3x3?-1  Frog_3x3?-1 ->  Frog_3x3
+tr jump_Frog_3x1_5x1 Frog_3x1 Toad_4x1?1 Toad_5x1?-1  Frog_5x1?-1 ->  Frog_5x1
+tr move_Toad_3x1_3x0 Toad_3x1 Frog_3x0?-1 Toad_3x0?-1 ->  Toad_3x0
+tr move_Toad_3x1_2x1 Toad_3x1 Frog_2x1?-1 Toad_2x1?-1 ->  Toad_2x1
+tr jump_Toad_3x1_1x1 Toad_3x1 Frog_2x1?1 Frog_1x1?-1  Toad_1x1?-1 ->  Toad_1x1
+tr move_Frog_3x2_3x3 Frog_3x2 Toad_3x3?-1 Frog_3x3?-1 ->  Frog_3x3
+tr move_Frog_3x2_4x2 Frog_3x2 Toad_4x2?-1 Frog_4x2?-1 ->  Frog_4x2
+tr jump_Frog_3x2_3x4 Frog_3x2 Toad_3x3?1 Toad_3x4?-1  Frog_3x4?-1 ->  Frog_3x4
+tr jump_Frog_3x2_5x2 Frog_3x2 Toad_4x2?1 Toad_5x2?-1  Frog_5x2?-1 ->  Frog_5x2
+tr move_Toad_3x2_3x1 Toad_3x2 Frog_3x1?-1 Toad_3x1?-1 ->  Toad_3x1
+tr move_Toad_3x2_2x2 Toad_3x2 Frog_2x2?-1 Toad_2x2?-1 ->  Toad_2x2
+tr jump_Toad_3x2_3x0 Toad_3x2 Frog_3x1?1 Frog_3x0?-1  Toad_3x0?-1 ->  Toad_3x0
+tr jump_Toad_3x2_1x2 Toad_3x2 Frog_2x2?1 Frog_1x2?-1  Toad_1x2?-1 ->  Toad_1x2
+tr move_Frog_3x3_3x4 Frog_3x3 Toad_3x4?-1 Frog_3x4?-1 ->  Frog_3x4
+tr move_Frog_3x3_4x3 Frog_3x3 Toad_4x3?-1 Frog_4x3?-1 ->  Frog_4x3
+tr jump_Frog_3x3_5x3 Frog_3x3 Toad_4x3?1 Toad_5x3?-1  Frog_5x3?-1 ->  Frog_5x3
+tr move_Toad_3x3_3x2 Toad_3x3 Frog_3x2?-1 Toad_3x2?-1 ->  Toad_3x2
+tr move_Toad_3x3_2x3 Toad_3x3 Frog_2x3?-1 Toad_2x3?-1 ->  Toad_2x3
+tr jump_Toad_3x3_3x1 Toad_3x3 Frog_3x2?1 Frog_3x1?-1  Toad_3x1?-1 ->  Toad_3x1
+tr jump_Toad_3x3_1x3 Toad_3x3 Frog_2x3?1 Frog_1x3?-1  Toad_1x3?-1 ->  Toad_1x3
+tr move_Frog_3x4_4x4 Frog_3x4 Toad_4x4?-1 Frog_4x4?-1 ->  Frog_4x4
+tr jump_Frog_3x4_5x4 Frog_3x4 Toad_4x4?1 Toad_5x4?-1  Frog_5x4?-1 ->  Frog_5x4
+tr move_Toad_3x4_3x3 Toad_3x4 Frog_3x3?-1 Toad_3x3?-1 ->  Toad_3x3
+tr move_Toad_3x4_2x4 Toad_3x4 Frog_2x4?-1 Toad_2x4?-1 ->  Toad_2x4
+tr jump_Toad_3x4_3x2 Toad_3x4 Frog_3x3?1 Frog_3x2?-1  Toad_3x2?-1 ->  Toad_3x2
+tr jump_Toad_3x4_1x4 Toad_3x4 Frog_2x4?1 Frog_1x4?-1  Toad_1x4?-1 ->  Toad_1x4
+tr move_Frog_4x0_4x1 Frog_4x0 Toad_4x1?-1 Frog_4x1?-1 ->  Frog_4x1
+tr move_Frog_4x0_5x0 Frog_4x0 Toad_5x0?-1 Frog_5x0?-1 ->  Frog_5x0
+tr jump_Frog_4x0_4x2 Frog_4x0 Toad_4x1?1 Toad_4x2?-1  Frog_4x2?-1 ->  Frog_4x2
+tr move_Toad_4x0_3x0 Toad_4x0 Frog_3x0?-1 Toad_3x0?-1 ->  Toad_3x0
+tr jump_Toad_4x0_2x0 Toad_4x0 Frog_3x0?1 Frog_2x0?-1  Toad_2x0?-1 ->  Toad_2x0
+tr move_Frog_4x1_4x2 Frog_4x1 Toad_4x2?-1 Frog_4x2?-1 ->  Frog_4x2
+tr move_Frog_4x1_5x1 Frog_4x1 Toad_5x1?-1 Frog_5x1?-1 ->  Frog_5x1
+tr jump_Frog_4x1_4x3 Frog_4x1 Toad_4x2?1 Toad_4x3?-1  Frog_4x3?-1 ->  Frog_4x3
+tr move_Toad_4x1_4x0 Toad_4x1 Frog_4x0?-1 Toad_4x0?-1 ->  Toad_4x0
+tr move_Toad_4x1_3x1 Toad_4x1 Frog_3x1?-1 Toad_3x1?-1 ->  Toad_3x1
+tr jump_Toad_4x1_2x1 Toad_4x1 Frog_3x1?1 Frog_2x1?-1  Toad_2x1?-1 ->  Toad_2x1
+tr move_Frog_4x2_4x3 Frog_4x2 Toad_4x3?-1 Frog_4x3?-1 ->  Frog_4x3
+tr move_Frog_4x2_5x2 Frog_4x2 Toad_5x2?-1 Frog_5x2?-1 ->  Frog_5x2
+tr jump_Frog_4x2_4x4 Frog_4x2 Toad_4x3?1 Toad_4x4?-1  Frog_4x4?-1 ->  Frog_4x4
+tr move_Toad_4x2_4x1 Toad_4x2 Frog_4x1?-1 Toad_4x1?-1 ->  Toad_4x1
+tr move_Toad_4x2_3x2 Toad_4x2 Frog_3x2?-1 Toad_3x2?-1 ->  Toad_3x2
+tr jump_Toad_4x2_4x0 Toad_4x2 Frog_4x1?1 Frog_4x0?-1  Toad_4x0?-1 ->  Toad_4x0
+tr jump_Toad_4x2_2x2 Toad_4x2 Frog_3x2?1 Frog_2x2?-1  Toad_2x2?-1 ->  Toad_2x2
+tr move_Frog_4x3_4x4 Frog_4x3 Toad_4x4?-1 Frog_4x4?-1 ->  Frog_4x4
+tr move_Frog_4x3_5x3 Frog_4x3 Toad_5x3?-1 Frog_5x3?-1 ->  Frog_5x3
+tr move_Toad_4x3_4x2 Toad_4x3 Frog_4x2?-1 Toad_4x2?-1 ->  Toad_4x2
+tr move_Toad_4x3_3x3 Toad_4x3 Frog_3x3?-1 Toad_3x3?-1 ->  Toad_3x3
+tr jump_Toad_4x3_4x1 Toad_4x3 Frog_4x2?1 Frog_4x1?-1  Toad_4x1?-1 ->  Toad_4x1
+tr jump_Toad_4x3_2x3 Toad_4x3 Frog_3x3?1 Frog_2x3?-1  Toad_2x3?-1 ->  Toad_2x3
+tr move_Frog_4x4_5x4 Frog_4x4 Toad_5x4?-1 Frog_5x4?-1 ->  Frog_5x4
+tr move_Toad_4x4_4x3 Toad_4x4 Frog_4x3?-1 Toad_4x3?-1 ->  Toad_4x3
+tr move_Toad_4x4_3x4 Toad_4x4 Frog_3x4?-1 Toad_3x4?-1 ->  Toad_3x4
+tr jump_Toad_4x4_4x2 Toad_4x4 Frog_4x3?1 Frog_4x2?-1  Toad_4x2?-1 ->  Toad_4x2
+tr jump_Toad_4x4_2x4 Toad_4x4 Frog_3x4?1 Frog_2x4?-1  Toad_2x4?-1 ->  Toad_2x4
+tr move_Frog_5x0_5x1 Frog_5x0 Toad_5x1?-1 Frog_5x1?-1 ->  Frog_5x1
+tr jump_Frog_5x0_5x2 Frog_5x0 Toad_5x1?1 Toad_5x2?-1  Frog_5x2?-1 ->  Frog_5x2
+tr move_Toad_5x0_4x0 Toad_5x0 Frog_4x0?-1 Toad_4x0?-1 ->  Toad_4x0
+tr jump_Toad_5x0_3x0 Toad_5x0 Frog_4x0?1 Frog_3x0?-1  Toad_3x0?-1 ->  Toad_3x0
+tr move_Frog_5x1_5x2 Frog_5x1 Toad_5x2?-1 Frog_5x2?-1 ->  Frog_5x2
+tr jump_Frog_5x1_5x3 Frog_5x1 Toad_5x2?1 Toad_5x3?-1  Frog_5x3?-1 ->  Frog_5x3
+tr move_Toad_5x1_5x0 Toad_5x1 Frog_5x0?-1 Toad_5x0?-1 ->  Toad_5x0
+tr move_Toad_5x1_4x1 Toad_5x1 Frog_4x1?-1 Toad_4x1?-1 ->  Toad_4x1
+tr jump_Toad_5x1_3x1 Toad_5x1 Frog_4x1?1 Frog_3x1?-1  Toad_3x1?-1 ->  Toad_3x1
+tr move_Frog_5x2_5x3 Frog_5x2 Toad_5x3?-1 Frog_5x3?-1 ->  Frog_5x3
+tr jump_Frog_5x2_5x4 Frog_5x2 Toad_5x3?1 Toad_5x4?-1  Frog_5x4?-1 ->  Frog_5x4
+tr move_Toad_5x2_5x1 Toad_5x2 Frog_5x1?-1 Toad_5x1?-1 ->  Toad_5x1
+tr move_Toad_5x2_4x2 Toad_5x2 Frog_4x2?-1 Toad_4x2?-1 ->  Toad_4x2
+tr jump_Toad_5x2_5x0 Toad_5x2 Frog_5x1?1 Frog_5x0?-1  Toad_5x0?-1 ->  Toad_5x0
+tr jump_Toad_5x2_3x2 Toad_5x2 Frog_4x2?1 Frog_3x2?-1  Toad_3x2?-1 ->  Toad_3x2
+tr move_Frog_5x3_5x4 Frog_5x3 Toad_5x4?-1 Frog_5x4?-1 ->  Frog_5x4
+tr move_Toad_5x3_5x2 Toad_5x3 Frog_5x2?-1 Toad_5x2?-1 ->  Toad_5x2
+tr move_Toad_5x3_4x3 Toad_5x3 Frog_4x3?-1 Toad_4x3?-1 ->  Toad_4x3
+tr jump_Toad_5x3_5x1 Toad_5x3 Frog_5x2?1 Frog_5x1?-1  Toad_5x1?-1 ->  Toad_5x1
+tr jump_Toad_5x3_3x3 Toad_5x3 Frog_4x3?1 Frog_3x3?-1  Toad_3x3?-1 ->  Toad_3x3
+tr move_Toad_5x4_5x3 Toad_5x4 Frog_5x3?-1 Toad_5x3?-1 ->  Toad_5x3
+tr move_Toad_5x4_4x4 Toad_5x4 Frog_4x4?-1 Toad_4x4?-1 ->  Toad_4x4
+tr jump_Toad_5x4_5x2 Toad_5x4 Frog_5x3?1 Frog_5x2?-1  Toad_5x2?-1 ->  Toad_5x2
+tr jump_Toad_5x4_3x4 Toad_5x4 Frog_4x4?1 Frog_3x4?-1  Toad_3x4?-1 ->  Toad_3x4
