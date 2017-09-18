@@ -1,6 +1,6 @@
 # Description
 
-Mercury is a prototype tool for Parallel State Space construction and Parallel Model Checking. All the algorithms implemented in Mercury follow a SPMD approach, such that each processor executes the same program.
+Mercury is a high performance Model Checker developed for multicore, multiprocessors machine with shared memory. It is a state-of-the art Model Checking playground specially developed to experiment different approaches for  Parallel State Space construction  (graph traversal)  and Parallel Model Checking of temporal formulas.
 
 Mercury has been developed to be highly modular and extensible. The software is composed of separate, interchangeable modules that accept different memory layouts (shared/local data) and synchronization mechanisms.
 
