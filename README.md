@@ -41,7 +41,7 @@ model -- it is not necessary to use lots of processors for a model with few conc
 actions -- but this is an inherent limitation with parallel state space construction [EL08](http://www.sciencedirect.com/science/article/pii/S1571066108000704), 
 which is an irregular problem.
 
-![alt text](https://github.com/rtsaad/mercury/doc/images/lt_ratio_speedup.pdf "Speedup analysis")
+![alt text](doc/images/lt_ratio_speedup.pdf "Speedup analysis")
 
 Concerning the use of memory, we can measure the quality of the distribution of the 
 state space using the *mean standard deviation* (*sigma*) of the number of states among 
