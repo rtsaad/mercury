@@ -28,7 +28,7 @@ For more information, check [Mercury's homepage](https://rodrigotaclasaad.wordpr
    - The state space and the exploration stacks are partitioned on the hard disk;
    - Coming soon: Reachability analysis
 
-#Benchmark
+# Benchmark (Speedup)
 
 In Figure 1 we give the observed speedup of Mercury on a set of examples.  We give 
 the absolute speedup, measured as the ratio between the execution time using **n** 
@@ -41,7 +41,7 @@ model -- it is not necessary to use lots of processors for a model with few conc
 actions -- but this is an inherent limitation with parallel state space construction [EL08](http://www.sciencedirect.com/science/article/pii/S1571066108000704), 
 which is an irregular problem.
 
-![alt text](doc/images/lt_ratio_speedup.pdf "Speedup analysis")
+![](doc/images/lt_ratio_speedup.png "Speedup analysis")
 
 Concerning the use of memory, we can measure the quality of the distribution of the 
 state space using the *mean standard deviation* (*sigma*) of the number of states among 
