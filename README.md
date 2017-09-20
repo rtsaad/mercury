@@ -52,10 +52,10 @@ state space using the *mean standard deviation* (*sigma*) of the number of state
 the processors. In our experiments, we observe that the value of *sigma* is quite small 
 and that it stays stable when we change the number of processors. For instance, we have 
 *sigma* ~ 1.5% for the Hanoi model and *sigma* ~ 7% for Kanban. The difference between 
-values of *sigma* can be explained by the difference in the ``degree of concurrency''. 
+values of *sigma* can be explained by the difference in the *degree of concurrency*. 
 It may also be affected by the processor's performance, that is, a processor that handles 
-``simpler states''--- states whose transition firing involves a small number of operations 
----may dynamically assign more states than others. Finally, our experiments are also 
+*simpler states* --- states whose transition firing involves a small number of operations 
+--- may dynamically assign more states than others. Finally, our experiments are also 
 affected by the Non-Uniform Memory Access (NUMA) architecture of our  machine, where 
 the latency and bandwidth characteristics of memory actions depend on the processor 
 or memory region being accessed. 
