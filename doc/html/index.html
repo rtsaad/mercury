@@ -64,15 +64,15 @@ $(function() {
 <div class="title">Description </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Mercury is a prototype tool for Parallel State Space construction and Parallel Model Checking. All the algorithms implemented in Mercury follow a SPMD approach, such that each processor executes the same program.</p>
+<div class="textblock"><p>Mercury is a high performance Model Checker developed for multicore, multiprocessors machine with shared memory. It is a state-of-the art Model Checking playground specially developed to experiment different approaches for Parallel State Space construction (graph traversal) and Parallel Model Checking of temporal formulas.</p>
 <p>Mercury has been developed to be highly modular and extensible. The software is composed of separate, interchangeable modules that accept different memory layouts (shared/local data) and synchronization mechanisms.</p>
 <p>Moreover, the software view of states is abstract and can be easily extended to take into account data structures and time classes. Altogether, we experimented several versions, two for probabilistic, four for exhaustive state space construction and three for parallel model checking (subset of CTL formulas).</p>
 <p>For more information, check <a href="https://rodrigotaclasaad.wordpress.com/mercury/">Mercury's homepage</a></p>
 <h1>Features:</h1>
 <ol type="1">
 <li>Parallel State Space Exploration<ul>
-<li>Reachability analysis</li>
-<li>Local Sub-CTL Model Checking</li>
+<li>Reachability analysis (see <a href="https://rodrigotaclasaad.wordpress.com/2017/09/05/mixed-shared-distributed-hash-tables-approaches-for-parallel-state-space-construction/">ISPDC2011</a></li>
+<li>Local Sub-CTL Model Checking (see <a href="https://rodrigotaclasaad.wordpress.com/2017/09/05/an-experiment-on-parallel-model-checking-of-a-ctl-fragment/">ATVA2012</a>)</li>
 </ul>
 </li>
 <li>Probabilistic State Space Exploration<ul>
@@ -86,6 +86,12 @@ $(function() {
 </ul>
 </li>
 </ol>
+<h1>Benchmark (Speedup)</h1>
+<p>In Figure 1 we give the observed speedup of Mercury on a set of examples. We give the absolute speedup, measured as the ratio between the execution time using <b>n</b> processors (<b>tn</b>) and the time of an optimized, sequential version (<b>ts</b>). Mercury delivers promising speedups. The results also show different behaviors according to the model. For instance, Mercury efficiency may vary between 90% (Hanoi model) and 51% (Kanban model), whereas the system occupancy is consistently over 95%. Clearly, the algorithm depends on the ``degree of concurrency'' of the model &ndash; it is not necessary to use lots of processors for a model with few concurrent actions &ndash; but this is an inherent limitation with parallel state space construction <a href="http://www.sciencedirect.com/science/article/pii/S1571066108000704">EL08</a>, which is an irregular problem.</p>
+<div class="image">
+<img src="doc/images/lt_ratio_speedup.png" alt="alt text" title="Speedup analysis"/>
+</div>
+<p>Concerning the use of memory, we can measure the quality of the distribution of the state space using the <em>mean standard deviation</em> (<em>sigma</em>) of the number of states among the processors. In our experiments, we observe that the value of <em>sigma</em> is quite small and that it stays stable when we change the number of processors. For instance, we have <em>sigma</em> ~ 1.5% for the Hanoi model and <em>sigma</em> ~ 7% for Kanban. The difference between values of <em>sigma</em> can be explained by the difference in the <em>degree of concurrency</em>. It may also be affected by the processor's performance, that is, a processor that handles <em>simpler states</em> &mdash; states whose transition firing involves a small number of operations &mdash; may dynamically assign more states than others. Finally, our experiments are also affected by the Non-Uniform Memory Access (NUMA) architecture of our machine, where the latency and bandwidth characteristics of memory actions depend on the processor or memory region being accessed.</p>
 <h1>History and Technical Details</h1>
 <p>I started developing Mercury in 2009 as part of my Ph.D. thesis at LAAS (Toulouse France) under the supervision of Bernard Berthomieu and Silvano Dal Zilio. My main motivation was to implement a simple but powerful model checker engine to experiment different algorithms for Parallel Model Checking. It is implemented using the C language with Pthreads for concurrency and the Hoard Library for parallel memory allocation. It uses the work-stealing strategy for work-load and most of the data structures (hash tables, stacks, list, avl trees, etc) were specially developed for Mercury in order to obtain the best performance as possible.</p>
 <h1>Contact</h1>

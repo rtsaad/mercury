@@ -23,7 +23,7 @@ For more information, check [Mercury's homepage](https://rodrigotaclasaad.wordpr
 # Features:
 
 1. Parallel State Space Exploration
-   - Reachability analysis (see [ISPDC2011](https://rodrigotaclasaad.wordpress.com/2017/09/05/mixed-shared-distributed-hash-tables-approaches-for-parallel-state-space-construction/)
+   - Reachability analysis (see [ISPDC2011](https://rodrigotaclasaad.wordpress.com/2017/09/05/mixed-shared-distributed-hash-tables-approaches-for-parallel-state-space-construction/))
    - Local Sub-CTL Model Checking (see [ATVA2012](https://rodrigotaclasaad.wordpress.com/2017/09/05/an-experiment-on-parallel-model-checking-of-a-ctl-fragment/))
 2. Probabilistic State Space Exploration
    - Reachability analysis
@@ -40,7 +40,7 @@ processors (**tn**) and the time of an optimized, sequential version (**ts**).
 Mercury delivers promising speedups. The results also show different behaviors 
 according to the model.  For instance, Mercury efficiency may vary between 90% 
 (Hanoi model) and 51% (Kanban model), whereas the system occupancy  is consistently 
-over 95%.  Clearly, the algorithm depends on the ``degree of concurrency'' of the 
+over 95%.  Clearly, the algorithm depends on the *degree of concurrency* of the 
 model -- it is not necessary to use lots of processors for a model with few concurrent 
 actions -- but this is an inherent limitation with parallel state space construction [EL08](http://www.sciencedirect.com/science/article/pii/S1571066108000704), 
 which is an irregular problem.
