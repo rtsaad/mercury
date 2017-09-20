@@ -1,5 +1,9 @@
 # Description
 
+[//]: # (Image References)
+
+[image1]: doc/images/lt_ratio_speedup.png "Speedup analysis" 
+
 Mercury is a high performance Model Checker developed for multicore, multiprocessors 
 machine with shared memory. It is a state-of-the art Model Checking playground specially 
 developed to experiment different approaches for  Parallel State Space construction  
@@ -41,7 +45,7 @@ model -- it is not necessary to use lots of processors for a model with few conc
 actions -- but this is an inherent limitation with parallel state space construction [EL08](http://www.sciencedirect.com/science/article/pii/S1571066108000704), 
 which is an irregular problem.
 
-![](doc/images/lt_ratio_speedup.png "Speedup analysis")
+![alt text][image1]
 
 Concerning the use of memory, we can measure the quality of the distribution of the 
 state space using the *mean standard deviation* (*sigma*) of the number of states among 
