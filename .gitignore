@@ -1,0 +1,6 @@
+src/.deps/*
+load_hoard
+Makefile
+config.log
+config.status
+src/Makefile
