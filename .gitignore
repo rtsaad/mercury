@@ -6,3 +6,4 @@ config.status
 src/Makefile
 src/*.o
 src/mercury
+*.tpl
