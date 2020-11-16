@@ -414,6 +414,7 @@ void _command_help(){
     fprintf(stdout, "-smode 3      STATIC                                   \n");
     fprintf(stdout, "-smode 4      MIXTE_STATIC                             \n");
     #endif
+    fprintf(stdout, "parallel configuration:                                2\n");
     fprintf(stdout, "-th n         number of threads                        2\n");
     fprintf(stdout, "bloom configurations:                                  \n");
     fprintf(stdout, "-bls n        Bloom Filter Size in bits                32\n");
@@ -435,6 +436,7 @@ void _command_help(){
     fprintf(stdout, "Memory configurations:                                  \n");
     fprintf(stdout, "-Hts n        Global Hash Table Size in bits          25\n");
     fprintf(stdout, "              Force smode 2 (Mixted)                    \n");
+    fprintf(stdout, "-disc         Flush Ram memoty to hard disc             \n");
     //fprintf(stdout, "-hts n        Local Hash Table Size in bits           25\n");
     fprintf(stdout, "-sc n (0|1|2|3) State Compression                      0\n");
     fprintf(stdout, "    0:No_Compression  1:Huffman  2:RLE                  \n");
